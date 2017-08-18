@@ -1,0 +1,1557 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+end_init CODE 0 14 14 2 2
+reset_vec CODE 0 0 0 3 2
+config CONFIG 0 8007 8007 2 2
+$dist/default/debug\Sensore.X.debug.obj
+cinit CODE 0 16 16 2B 2
+intentry CODE 0 4 4 10 2
+text53 CODE 0 CD3 CD3 6 2
+text51 CODE 0 DCC DCC 17 2
+text50 CODE 0 F12 F12 20 2
+text49 CODE 0 E9A E9A 1E 2
+text48 CODE 0 781 781 2C 2
+text47 CODE 0 D04 D04 B 2
+text46 CODE 0 D0F D0F B 2
+text45 CODE 0 D5D D5D 11 2
+text44 CODE 0 EB8 EB8 1E 2
+text43 CODE 0 FDA FDA 26 2
+text42 CODE 0 D7F D7F 13 2
+text41 CODE 0 283 283 BE 2
+text40 CODE 0 D92 D92 13 2
+text39 CODE 0 DA5 DA5 13 2
+text38 CODE 0 D1A D1A C 2
+text37 CODE 0 DE3 DE3 18 2
+text36 CODE 0 E13 E13 19 2
+text35 CODE 0 ED6 ED6 1E 2
+text34 CODE 0 589 589 60 2
+text33 CODE 0 F52 F52 21 2
+text32 CODE 0 18D 18D F6 2
+text31 CODE 0 3F5 3F5 A9 2
+text30 CODE 0 341 341 B4 2
+text29 CODE 0 6EA 6EA 36 2
+text28 CODE 0 41 41 14C 2
+text27 CODE 0 EF4 EF4 1E 2
+text26 CODE 0 E7D E7D 1D 2
+text25 CODE 0 DB8 DB8 14 2
+text24 CODE 0 F32 F32 20 2
+text23 CODE 0 E61 E61 1C 2
+text22 CODE 0 F73 F73 21 2
+text21 CODE 0 640 640 57 2
+text20 CODE 0 49E 49E 86 2
+text19 CODE 0 D4E D4E F 2
+text18 CODE 0 D40 D40 E 2
+text17 CODE 0 F94 F94 22 2
+text16 CODE 0 5E9 5E9 57 2
+text15 CODE 0 CD9 CD9 6 2
+text14 CODE 0 7D5 7D5 26 2
+text13 CODE 0 7AD 7AD 28 2
+text12 CODE 0 CEB CEB 8 2
+text11 CODE 0 524 524 65 2
+text10 CODE 0 D26 D26 D 2
+text9 CODE 0 7FB 7FB 4 2
+text8 CODE 0 D6E D6E 11 2
+text7 CODE 0 CFB CFB 9 2
+text6 CODE 0 D33 D33 D 2
+text5 CODE 0 DFB DFB 18 2
+text4 CODE 0 E46 E46 1B 2
+text3 CODE 0 FB6 FB6 24 2
+text2 CODE 0 E2C E2C 1A 2
+text1 CODE 0 720 720 32 2
+maintext CODE 0 697 697 53 2
+cstackBANK0 BANK0 1 20 20 49 1
+cstackCOMMON COMMON 1 70 70 C 1
+inittext CODE 0 CDF CDF 6 2
+clrtext CODE 0 CE5 CE5 6 2
+dataBANK2 BANK2 1 120 120 2F 1
+dataBANK1 BANK1 1 CA CA 8 1
+bssBANK1 BANK1 1 A0 A0 2A 1
+bssBANK0 BANK0 1 69 69 7 1
+bssCOMMON COMMON 1 7C 7C 1 1
+strings STRING 0 800 800 6 2
+idataBANK2 CODE 0 752 752 2F 2
+idataBANK1 CODE 0 CF3 CF3 8 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK1 000D2-000EF 1
+BANK10 00520-0056F 1
+BANK11 005A0-005EF 1
+BANK12 00620-0064F 1
+BANK2 0014F-0016F 1
+BANK3 001A0-001EF 1
+BANK4 00220-0026F 1
+BANK5 002A0-002EF 1
+BANK6 00320-0036F 1
+BANK7 003A0-003EF 1
+BANK8 00420-0046F 1
+BANK9 004A0-004EF 1
+BIGRAM 02000-023EF 1
+CODE 00003-00003 2
+CODE 007FF-007FF 2
+CODE 00806-00CD2 2
+CODE 01000-03FFF 2
+COMMON 0007D-0007D 1
+CONST 00003-00003 2
+CONST 007FF-007FF 2
+CONST 00806-00CD2 2
+CONST 01000-03FFF 2
+ENTRY 00003-00003 2
+ENTRY 007FF-007FF 2
+ENTRY 00806-00CD2 2
+ENTRY 01000-03FFF 2
+IDLOC 08000-08003 2
+RAM 000D2-000EF 1
+RAM 0014F-0016F 1
+RAM 001A0-001EF 1
+RAM 00220-0026F 1
+RAM 002A0-002EF 1
+RAM 00320-0036F 1
+RAM 003A0-003EF 1
+RAM 00420-0046F 1
+RAM 004A0-004EF 1
+RAM 00520-0056F 1
+RAM 005A0-005EF 1
+RAM 00620-0064F 1
+SFR0 00000-0001F 1
+SFR1 00080-0009F 1
+SFR10 00500-0051F 1
+SFR11 00580-0059F 1
+SFR12 00600-0061F 1
+SFR13 00680-006EF 1
+SFR14 00700-0076F 1
+SFR15 00780-007EF 1
+SFR16 00800-0086F 1
+SFR17 00880-008EF 1
+SFR18 00900-0096F 1
+SFR19 00980-009EF 1
+SFR2 00100-0011F 1
+SFR20 00A00-00A6F 1
+SFR21 00A80-00AEF 1
+SFR22 00B00-00B6F 1
+SFR23 00B80-00BEF 1
+SFR24 00C00-00C6F 1
+SFR25 00C80-00CEF 1
+SFR26 00D00-00D6F 1
+SFR27 00D80-00DEF 1
+SFR28 00E00-00E6F 1
+SFR29 00E80-00EEF 1
+SFR3 00180-0019F 1
+SFR30 00F00-00F6F 1
+SFR31 00F80-00FEF 1
+SFR4 00200-0021F 1
+SFR5 00280-0029F 1
+SFR6 00300-0031F 1
+SFR7 00380-0039F 1
+SFR8 00400-0041F 1
+SFR9 00480-0049F 1
+STRCODE 00003-00003 2
+STRCODE 007FF-007FF 2
+STRCODE 00806-00CD2 2
+STRCODE 01000-03FFF 2
+STRING 00003-00003 2
+STRING 007FF-007FF 2
+STRING 00806-00CD2 2
+STRING 01000-03FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Sensore.X.debug.obj
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":38 4 intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":40 8 intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":43 A intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":46 B intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":50 D intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":51 F intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":52 10 intentry CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3598 16 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3602 17 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3603 18 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3604 19 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3605 1A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3606 1B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3607 1C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3611 1F cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3612 20 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3613 21 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3614 22 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3615 23 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3616 24 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3631 27 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3632 28 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3633 29 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3634 2A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3635 2B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3636 2C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3637 2D cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3638 2E cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3639 2F cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3640 30 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3644 33 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3645 34 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3646 35 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3647 36 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3648 37 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3649 38 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3650 39 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3651 3A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3652 3B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3653 3C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3660 3E cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3661 3F cinit CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":49 41 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":50 46 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":55 47 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":59 48 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":61 4A text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":64 4E text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":70 60 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":72 B0 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":74 B3 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":76 B4 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":77 B6 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":78 B8 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":79 BA text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":83 BB text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":85 C4 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":88 C8 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":94 CF text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":96 D1 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":99 D5 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":106 E8 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":108 15E text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":110 161 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":112 162 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":113 165 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":114 167 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":116 168 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":121 169 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":123 172 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":126 176 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":128 17C text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":130 17E text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":55 17F text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":132 188 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":133 18B text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":132 18C text28 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":90 18D text32 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":135 18D text28 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":91 19A text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":92 1A6 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":93 1B5 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":94 1BC text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":96 1CB text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":97 1CF text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":98 1D0 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":99 1D1 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":100 1D2 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":101 1D3 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":102 1D4 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":103 1DA text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":104 1DB text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":106 1E1 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":110 1E5 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":111 1EB text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":112 1ED text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":114 1F8 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":115 1FE text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":113 202 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":117 207 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":121 20B text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":122 211 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":123 213 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":125 21E text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":126 224 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":124 228 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":129 22C text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":131 22E text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":132 234 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":134 23E text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":136 240 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":137 246 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":139 250 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":140 251 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":141 257 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":142 259 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":143 25F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":144 269 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":146 26B text32 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":43 283 text41 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":148 283 text32 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":44 284 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":45 286 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":48 287 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":50 289 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":51 28F text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":52 294 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":54 298 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":57 299 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":59 29F text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":60 2A0 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":61 2AD text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":62 2AE text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":63 2B0 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":57 2BA text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":67 2C3 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":68 2C5 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":69 2CF text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":70 2D1 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":71 2D3 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":72 2D4 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":73 2D6 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":74 2D7 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":77 2D8 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":79 2DD text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":81 2DE text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":84 2E3 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":85 2F4 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":77 2F8 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":88 300 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":91 301 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":94 306 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":95 312 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":97 31C text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":98 321 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":100 324 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":101 326 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":102 328 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":103 32A text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":104 32B text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":105 32D text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":106 32E text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":91 32F text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":109 338 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":52 33C text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":112 33D text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":113 33E text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":114 340 text41 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":56 341 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":57 351 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":58 358 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":59 367 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":60 36E text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":61 373 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":62 383 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":63 393 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":64 397 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":66 398 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":67 399 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":68 39F text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":69 3A5 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":71 3A9 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":72 3AB text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":73 3B1 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":74 3B7 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":75 3BD text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":76 3C1 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":78 3C5 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":79 3C7 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":80 3CD text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":81 3D3 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":82 3D9 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":83 3DD text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":55 3F5 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":84 3F5 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":56 405 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":57 40C text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":58 41B text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":59 422 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":60 428 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":61 42D text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":62 43D text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":63 44D text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":64 451 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":65 452 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":66 458 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":67 459 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":68 45F text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":70 463 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":71 469 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":72 475 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":73 47B text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":75 47C text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":76 482 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":77 486 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c":78 49E text31 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":209 49E text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":212 4A1 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":214 4A3 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":215 4A8 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":219 4A9 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":222 4AE text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":225 4B1 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":226 4B7 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":227 4BD text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":228 4BE text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":229 4DB text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":230 4E0 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":231 4E6 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":232 4EC text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":233 4F7 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":234 4FC text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":235 502 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":238 508 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":241 511 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":244 517 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":248 51B text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":249 520 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":251 521 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":10 524 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":253 524 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":12 527 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":13 52D text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":15 530 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":16 536 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":18 538 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":19 53E text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":21 540 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":22 546 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":23 54A text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":24 54C text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":26 54F text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":27 551 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":28 553 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":30 555 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":31 55B text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":33 55E text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":34 563 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":36 566 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":37 567 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":39 568 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":40 56C text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":41 56F text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":42 572 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":43 576 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":44 57A text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":45 57C text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":46 57E text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":47 57F text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":48 582 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":50 586 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c":51 588 text11 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":64 589 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":65 591 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":67 598 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":68 59C text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":66 5A2 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":71 5A7 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":72 5AB text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":73 5B5 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":70 5BB text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":76 5C0 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":77 5C2 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":75 5C8 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":79 5CA text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":80 5CC text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":81 5D2 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":82 5D4 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":83 5E4 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":84 5E7 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":86 5E8 text34 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":139 5E9 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":140 5F4 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":142 5F9 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":144 5FA text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":146 603 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":148 606 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":151 60A text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":154 60E text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":156 614 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":157 616 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":159 619 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":161 61C text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":163 61E text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":165 620 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":167 623 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":170 627 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":173 628 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":176 631 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":179 635 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":181 639 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":183 63B text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":185 63D text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":188 63F text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":111 640 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":192 640 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":112 643 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":114 64E text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":116 65D text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":117 661 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":118 66C text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":120 677 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":121 67B text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":123 686 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":125 693 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":126 696 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":59 697 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":61 69D maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":63 69E maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":64 6A3 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":65 6A8 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":66 6AD maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":67 6B2 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":68 6B7 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":69 6BC maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":70 6C1 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":71 6C6 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":72 6CB maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":73 6D0 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":59 6D5 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":77 6DE maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":82 6DF maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":84 6E0 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":85 6E3 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":86 6E6 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":80 6E9 maintext CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":9 6EA text29 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c":89 6EA maintext CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":10 6EC text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":11 6F0 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 6F2 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":13 6F4 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":14 6F9 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 6FD text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":17 6FE text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":18 703 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":19 70B text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":20 70F text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":22 710 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":23 715 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":25 719 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":26 720 text29 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":47 720 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":50 723 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":53 724 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":54 727 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":55 72A text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":58 72D text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":61 730 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":62 731 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":64 734 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":67 737 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":68 738 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":72 73B text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":75 73E text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":77 73F text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":78 741 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":82 744 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":85 747 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":87 748 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":91 74B text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":94 74E text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":96 74F text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":98 752 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":26 781 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":27 782 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":31 783 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":32 790 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":35 791 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":36 793 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":37 795 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":38 797 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":39 79D text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":44 7A3 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":27 7A4 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c":45 7AC text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":50 7AD text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":52 7B0 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":53 7B5 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":55 7B9 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":56 7BB text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":58 7BD text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":59 7BF text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":61 7C1 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":66 7C2 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":68 7C5 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":69 7CA text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":72 7D1 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":74 7D3 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":75 7D4 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":18 7D5 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":77 7D5 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":19 7D6 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":23 7D7 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":24 7EE text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":27 7EF text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":32 7F1 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":19 7F2 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":33 7FA text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":96 7FB text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":98 7FD text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":99 7FE text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":11 800 strings STRING
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.h":23 801 strings STRING
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":38 CD3 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":41 CD5 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c":42 CD8 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":85 CD9 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":86 CDC text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":87 CDF text15 CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3621 CDF inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3623 CE0 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3624 CE1 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3625 CE2 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3626 CE3 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3627 CE4 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3588 CE5 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3590 CE6 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3591 CE7 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3592 CE8 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3593 CE9 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s454.":3594 CEA clrtext CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":147 CEB text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":149 CED text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":151 CF0 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":153 CF2 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":118 CFB text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":120 CFD text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":122 D00 text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":123 D03 text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":8 D04 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":9 D05 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":19 D06 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":21 D08 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":9 D09 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":22 D0E text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":7 D0F text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":8 D10 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":12 D11 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":20 D13 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":8 D14 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":21 D19 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":75 D1A text38 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":76 D23 text38 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":48 D26 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":77 D26 text38 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":50 D2A text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":51 D2C text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":54 D2F text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":56 D30 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":58 D31 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":59 D32 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":61 D33 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":74 D33 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":76 D37 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":77 D39 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":78 D3C text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":80 D40 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":131 D40 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":132 D4D text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":197 D4E text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":199 D55 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":201 D58 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":202 D5A text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":203 D5C text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":25 D5D text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":26 D5E text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":33 D5F text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":34 D61 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":35 D62 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":36 D63 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":37 D65 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":38 D66 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":43 D67 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":26 D68 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":44 D6D text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":104 D6E text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":106 D70 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":108 D71 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":110 D77 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":112 D79 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":113 D7E text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":65 D7F text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":66 D91 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":70 D92 text40 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":71 DA4 text40 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":82 DA5 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":83 DAB text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":84 DB1 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":85 DB2 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":86 DB3 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":88 DB4 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":90 DB6 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":91 DB7 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":98 DB8 text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":101 DBB text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":102 DC1 text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":105 DC9 text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":106 DCB text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":7 DCC text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":8 DCD text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":12 DCE text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":20 DDC text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":8 DDD text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c":21 DE2 text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":25 DE3 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":26 DE5 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":30 DE6 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":31 DE8 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":34 DE9 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":35 DEA text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":36 DEB text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":37 DEE text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":42 DF0 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":26 DF1 text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c":43 DFA text37 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":157 DFB text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":158 E07 text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":159 E12 text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c":21 E13 text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c":23 E1D text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c":24 E1E text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c":21 E27 text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c":26 E2C text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":92 E2C text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":93 E2E text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":94 E35 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":95 E37 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":98 E3E text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":101 E42 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":102 E45 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":75 E46 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":76 E48 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":86 E49 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":87 E4D text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":88 E54 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":90 E56 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":76 E57 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":91 E60 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":113 E61 text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":116 E64 text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":117 E6A text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":120 E73 text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":123 E7A text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":124 E7C text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":43 E7D text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":45 E82 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":46 E84 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":47 E90 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":48 E93 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":47 E94 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":43 E95 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":9 E9A text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":50 E9A text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":10 E9B text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":14 E9C text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":22 EAB text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":10 EAC text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":23 EB7 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":81 EB8 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":82 EBA text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":83 EBB text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":86 EBC text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":88 EC4 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":89 EC8 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":90 ECA text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":94 ECC text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":95 ECE text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":98 ED0 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":99 ED3 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":28 ED6 text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c":101 ED6 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":30 EDC text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":31 EDD text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":32 EDF text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":33 EE6 text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":34 EE8 text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":28 EEF text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":36 EF4 text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":42 EF4 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":44 EFA text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":45 EFB text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":46 EFD text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":47 F04 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":48 F06 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":42 F0D text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":7 F12 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c":50 F12 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":8 F13 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":12 F14 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":20 F2B text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":8 F2C text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c":21 F31 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":29 F32 text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":31 F38 text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":32 F3A text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":33 F3D text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":34 F40 text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":33 F41 text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":35 F42 text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":29 F4D text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":36 F52 text33 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c":37 F52 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":37 F54 text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":38 F56 text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":39 F5B text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":41 F5D text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c":42 F73 text33 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":131 F73 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":134 F76 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":135 F7C text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":138 F85 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":141 F91 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c":142 F93 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":258 F94 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":259 F9B text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":260 FA1 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":261 FA7 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":262 FA8 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":263 FA9 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":264 FAA text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":265 FAB text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":266 FAC text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":269 FAD text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":270 FB5 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":49 FB6 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":50 FB8 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":57 FB9 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":58 FBA text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":59 FBC text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":60 FBD text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":63 FBE text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":64 FC2 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":65 FC6 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":66 FCA text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":68 FCC text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":50 FCD text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c":69 FD9 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":27 FDA text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":28 FDC text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":30 FE1 text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":31 FE2 text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":32 FEE text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":33 FEF text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":34 FF1 text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":28 FFB text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c":36 1000 text43 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___lwdiv@dividend 73 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+___lwdiv@counter 78 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_CC1Strobe 1B98 0 CODE 0 text25 dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXSndPkt 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+RTXReadPkt@numRxByte 66 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___awtoft@c 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXTask 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+SLPSleep@FVRCONTmp 25 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMWriteNvm 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__S0 8009 0 ABS 0 - -
+__S1 14F 0 ABS 0 - -
+__Hintentry 28 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+?_CC1Read 77 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__pintentry 8 0 CODE 0 intentry dist/default/debug\Sensore.X.debug.obj
+___ftadd@f1 43 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+SPIWrite@i 76 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMWrite@i 62 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXSndPkt D2E 0 CODE 0 text21 dist/default/debug\Sensore.X.debug.obj
+?_SPIRead 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_PIE1 91 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PIE2 92 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?_NVMRead 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_PIR1 11 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_TMR0 15 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PIR2 12 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+NVMWrite@j 64 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_WPUB 20D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+ADCConv@cntSum 59 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___ftadd@f2 46 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_SPIWrite 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_main D2E 0 CODE 0 maintext dist/default/debug\Sensore.X.debug.obj
+_temp AD 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+btemp 7E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_batt 69 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+start 28 0 CODE 0 init C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+CC1Read@addr 7A 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+?___ftadd 43 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+NVMRead@addr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_NVMWrite 682 0 CODE 0 text41 dist/default/debug\Sensore.X.debug.obj
+CC1Init@state 22 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+ADCInit@state 72 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_DINInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+PGMInit@state 66 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+SPIInit@state 72 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+SYSInit@state 72 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+RTXInit@state 5A 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___ftmul@f1 23 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__end_of_INInit 1BC6 0 CODE 0 text51 dist/default/debug\Sensore.X.debug.obj
+__size_of_SYSInt 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_LEDFastFlash 1DE8 0 CODE 0 text27 dist/default/debug\Sensore.X.debug.obj
+___ftdiv@f1 36 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_RTXAwake 1C58 0 CODE 0 text2 dist/default/debug\Sensore.X.debug.obj
+_TMR1H 17 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_TMR1L 16 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_TRISA 8C 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_CC1Write 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_TRISB 8D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_IOCBN 395 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_TRISC 8E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+reset_vec 0 0 CODE 0 reset_vec C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+_PORTB D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_IOCBP 394 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PORTC E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_T1CON 18 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PMADR 191 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PMDAT 193 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+wtemp0 7E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftmul@f2 26 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___ftdiv@f2 33 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hconfig 10012 0 CONFIG 0 config -
+__Lconfig 1000E 0 CONFIG 0 config -
+_tempC A3 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+___ftpack B12 0 CODE 0 text34 dist/default/debug\Sensore.X.debug.obj
+_CC1Write 1EE6 0 CODE 0 text22 dist/default/debug\Sensore.X.debug.obj
+_PGMPgmOff FF6 0 CODE 0 text9 dist/default/debug\Sensore.X.debug.obj
+__end_of__stringtab 1002 0 STRING 0 strings dist/default/debug\Sensore.X.debug.obj
+main@i 68 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_DINTick 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_SPIWrite 1CFA 0 CODE 0 text26 dist/default/debug\Sensore.X.debug.obj
+_NVMWrite 506 0 CODE 0 text41 dist/default/debug\Sensore.X.debug.obj
+_CC1Sleep 19D6 0 CODE 0 text12 dist/default/debug\Sensore.X.debug.obj
+_battV A0 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+___ftdiv@f3 3E 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Lbigram 0 0 ABS 0 bigram -
+NVMWrite@source 73 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_u_in_ev_down B0 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+_SLPSleep A48 0 CODE 0 text11 dist/default/debug\Sensore.X.debug.obj
+__end_of_CC1LoadREG 1C26 0 CODE 0 text5 dist/default/debug\Sensore.X.debug.obj
+__CFG_CP$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of_RTXReadPkt C80 0 CODE 0 text16 dist/default/debug\Sensore.X.debug.obj
+_pktRx B3 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+_pktTx BC 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXStartSendData 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMReadNvm 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__CFG_LPBOR$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftmul@cntr 31 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_PGMCheckNvm 1A34 0 CODE 0 text38 dist/default/debug\Sensore.X.debug.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftdiv@cntr 3D 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_ADCON0 9D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_ADCON1 9E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PMCON1 195 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PMCON2 196 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_OPTION_REG 95 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__size_of_LEDNormalFlash 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PIR1bits 11 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?___ftmul 23 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_INInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_NVMInit 1A34 0 CODE 0 text46 dist/default/debug\Sensore.X.debug.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_ANSELA 18C 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PGMWriteNvm 1B24 0 CODE 0 text40 dist/default/debug\Sensore.X.debug.obj
+_ANSELB 18D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_CC1Strobe 1B70 0 CODE 0 text25 dist/default/debug\Sensore.X.debug.obj
+_ANSELC 18E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?___ftdiv 33 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___awtoft 1EA4 0 CODE 0 text33 dist/default/debug\Sensore.X.debug.obj
+?___lwdiv 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_SSPBUF 211 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+CC1Write@addr 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_ADRESH 9C 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+NVMWrite@addr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+INInit@sta 72 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_OSCCON 99 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_WDTCON 97 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_INTCON B 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_FVRCON 117 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__end_of_PGMPgmOff FFE 0 CODE 0 text9 dist/default/debug\Sensore.X.debug.obj
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__size_of_PGMTick 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+___ftmul@f3_as_product 2E 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__end_of_PGMSelDown 1AFE 0 CODE 0 text8 dist/default/debug\Sensore.X.debug.obj
+__size_of_LEDInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_SPIRead 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_CC1LoadREG 1BF6 0 CODE 0 text5 dist/default/debug\Sensore.X.debug.obj
+__end_of_ADCInit F5A 0 CODE 0 text48 dist/default/debug\Sensore.X.debug.obj
+_u_in_ev_long B1 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__end_of___ftpack BD2 0 CODE 0 text34 dist/default/debug\Sensore.X.debug.obj
+?___ftpack 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+?_CC1Write 77 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_LEDFastFlash 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXRcvPkt 1A9C 0 CODE 0 text18 dist/default/debug\Sensore.X.debug.obj
+?_SPIWrite 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+SLPSleep@IOCBNTmp 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+NVMWrite@rowAddr 60 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+ADCConv@sumTemp 54 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+?_NVMWrite 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_CC1Read 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftadd@sign 4D 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+_adc_ch A8 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__size_of_SPIInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_CC1Sleep 19E6 0 CODE 0 text12 dist/default/debug\Sensore.X.debug.obj
+_tmrPgm 6C 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+_INTIsr 8 0 CODE 0 intentry dist/default/debug\Sensore.X.debug.obj
+_u_flg_din 6E 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+_SYSInt 19A6 0 CODE 0 text53 dist/default/debug\Sensore.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+SLPSleep@OPTION_REGTmp 24 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_INInit 1B98 0 CODE 0 text51 dist/default/debug\Sensore.X.debug.obj
+__Hinit 28 0 CODE 0 init -
+__Linit 28 0 CODE 0 init -
+__end_of_main DD4 0 CODE 0 maintext dist/default/debug\Sensore.X.debug.obj
+__size_of_CC1Strobe 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_LEDNormalFlash 1DAC 0 CODE 0 text35 dist/default/debug\Sensore.X.debug.obj
+__end_of_PGMCheckNvm 1A4C 0 CODE 0 text38 dist/default/debug\Sensore.X.debug.obj
+_RTXSndPkt C80 0 CODE 0 text21 dist/default/debug\Sensore.X.debug.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+_cntSndData A9 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__size_of_CC1Init 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_RTXRcvPkt 1A80 0 CODE 0 text18 dist/default/debug\Sensore.X.debug.obj
+___ftmul@sign 32 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+end_of_initialization 7C 0 CODE 0 cinit dist/default/debug\Sensore.X.debug.obj
+___ftdiv@sign 42 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_tmrRcvPkt 6D 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_DLYDelay_ms 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Lsfr10 0 0 ABS 0 sfr10 -
+_SSPCON1 215 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+_SSPCON2 216 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__stringtab 1000 0 STRING 0 strings dist/default/debug\Sensore.X.debug.obj
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+_cc1PaTable CA 0 BANK1 1 dataBANK1 dist/default/debug\Sensore.X.debug.obj
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__end_of_CC1Write 1F28 0 CODE 0 text22 dist/default/debug\Sensore.X.debug.obj
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+_u_in_sta_currTask 7C 0 COMMON 1 bssCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_OUTInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hsfr15 0 0 ABS 0 sfr15 -
+__size_of___awtoft 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__end_of_nvm_pgm_cfg 100C 0 STRING 0 strings dist/default/debug\Sensore.X.debug.obj
+__Lsfr27 0 0 ABS 0 sfr27 -
+__pdataBANK1 CA 0 BANK1 1 dataBANK1 dist/default/debug\Sensore.X.debug.obj
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+_IOCBFbits 396 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_PGMReadNvm 1B24 0 CODE 0 text42 dist/default/debug\Sensore.X.debug.obj
+__end_of___ftadd 506 0 CODE 0 text32 dist/default/debug\Sensore.X.debug.obj
+_PORTAbits C 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PORTBbits D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_PORTCbits E 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__CFG_VCAPEN$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__pstrings 1000 0 STRING 0 strings dist/default/debug\Sensore.X.debug.obj
+__size_of_DINTask 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMCheckNvm 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?___awtoft 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_tmrDbncSel AE 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__end_of_DLYDelay_ms 1C58 0 CODE 0 text36 dist/default/debug\Sensore.X.debug.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__pdataBANK2 120 0 BANK2 1 dataBANK2 dist/default/debug\Sensore.X.debug.obj
+_cc1InitVal 120 0 BANK2 1 dataBANK2 dist/default/debug\Sensore.X.debug.obj
+LEDNormalFlash@i 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_SPIRead 1EA4 0 CODE 0 text24 dist/default/debug\Sensore.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+LEDInit@sta 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+DINInit@sta 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMInit@sta 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_INTIsr 28 0 CODE 0 intentry dist/default/debug\Sensore.X.debug.obj
+OUTInit@sta 72 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__end_of_LEDInit 1A1E 0 CODE 0 text47 dist/default/debug\Sensore.X.debug.obj
+RTXSndPkt@numRxByte 25 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+_tmrLongSel A6 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 3 0 ABS 0 - C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+___ftmul@exp 2D 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 -
+__Lbank4 0 0 ABS 0 bank4 -
+___ftdiv@exp 41 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Hpowerup 0 0 CODE 0 powerup -
+_SSPSTAT 214 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Hbank6 0 0 ABS 0 bank6 -
+__Lbank6 0 0 ABS 0 bank6 -
+__end_of_LEDFastFlash 1E24 0 CODE 0 text27 dist/default/debug\Sensore.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Lbank9 0 0 ABS 0 bank9 -
+_PGMNvmReset 1B4A 0 CODE 0 text39 dist/default/debug\Sensore.X.debug.obj
+__ptext1 E40 0 CODE 0 text1 dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXRcvPkt 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__ptext2 1C58 0 CODE 0 text2 dist/default/debug\Sensore.X.debug.obj
+__ptext3 1F6C 0 CODE 0 text3 dist/default/debug\Sensore.X.debug.obj
+__ptext4 1C8C 0 CODE 0 text4 dist/default/debug\Sensore.X.debug.obj
+__ptext5 1BF6 0 CODE 0 text5 dist/default/debug\Sensore.X.debug.obj
+__ptext6 1A66 0 CODE 0 text6 dist/default/debug\Sensore.X.debug.obj
+_ADCConv$1367 56 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__ptext7 19F6 0 CODE 0 text7 dist/default/debug\Sensore.X.debug.obj
+__end_of_CC1Init 1CC2 0 CODE 0 text4 dist/default/debug\Sensore.X.debug.obj
+__ptext8 1ADC 0 CODE 0 text8 dist/default/debug\Sensore.X.debug.obj
+_RTXStartSendData 1A9C 0 CODE 0 text19 dist/default/debug\Sensore.X.debug.obj
+__ptext9 FF6 0 CODE 0 text9 dist/default/debug\Sensore.X.debug.obj
+CC1Read@len 78 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+SPIRead@len 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMRead@len 74 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_PGMSelLong 19F6 0 CODE 0 text7 dist/default/debug\Sensore.X.debug.obj
+RTXSendData@valBatt 51 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+SLPSleep@ADCON0Tmp 26 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+DLYDelay_ms@val 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_OUTInit 1E64 0 CODE 0 text50 dist/default/debug\Sensore.X.debug.obj
+_DLYDelay_ms 1C26 0 CODE 0 text36 dist/default/debug\Sensore.X.debug.obj
+__CFG_WDTE$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXTick 1A80 0 CODE 0 text6 dist/default/debug\Sensore.X.debug.obj
+__end_of__initialization 7C 0 CODE 0 cinit dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXStartSendData 1ABA 0 CODE 0 text19 dist/default/debug\Sensore.X.debug.obj
+__end_of___lwdiv E40 0 CODE 0 text29 dist/default/debug\Sensore.X.debug.obj
+_CC1Read 1CC2 0 CODE 0 text23 dist/default/debug\Sensore.X.debug.obj
+NVMRead@dest 73 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_SPIRead 1E64 0 CODE 0 text24 dist/default/debug\Sensore.X.debug.obj
+__end_of_SYSTask EA4 0 CODE 0 text1 dist/default/debug\Sensore.X.debug.obj
+_NVMRead 1FB4 0 CODE 0 text43 dist/default/debug\Sensore.X.debug.obj
+DLYDelay_ms@i 75 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_SYSInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftadd 31A 0 CODE 0 text32 dist/default/debug\Sensore.X.debug.obj
+__end_of_SYSInt 19B2 0 CODE 0 text53 dist/default/debug\Sensore.X.debug.obj
+_DINTick F5A 0 CODE 0 text13 dist/default/debug\Sensore.X.debug.obj
+_PGMTick 1A4C 0 CODE 0 text10 dist/default/debug\Sensore.X.debug.obj
+_pgm_cfg C5 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+_RTXTick 1A66 0 CODE 0 text6 dist/default/debug\Sensore.X.debug.obj
+_PGMReadNvm 1AFE 0 CODE 0 text42 dist/default/debug\Sensore.X.debug.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+_pgm_flg 6B 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_NVMWrite 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_rtx_flg AA 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+_DINTask 1D70 0 CODE 0 text44 dist/default/debug\Sensore.X.debug.obj
+__end_of_SYSInit FF6 0 CODE 0 text14 dist/default/debug\Sensore.X.debug.obj
+_SYSTask E40 0 CODE 0 text1 dist/default/debug\Sensore.X.debug.obj
+_RTXTask 19B2 0 CODE 0 text15 dist/default/debug\Sensore.X.debug.obj
+init_ram 19BE 0 CODE 0 inittext dist/default/debug\Sensore.X.debug.obj
+_s_CC1_FLG AB 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+___ftpack@sign 75 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_CC1Init 1C8C 0 CODE 0 text4 dist/default/debug\Sensore.X.debug.obj
+_ADCInit F02 0 CODE 0 text48 dist/default/debug\Sensore.X.debug.obj
+__end_of_LEDNormalFlash 1DE8 0 CODE 0 text35 dist/default/debug\Sensore.X.debug.obj
+_LEDInit 1A08 0 CODE 0 text47 dist/default/debug\Sensore.X.debug.obj
+_DINInit 1ABA 0 CODE 0 text45 dist/default/debug\Sensore.X.debug.obj
+_PGMInit 1BC6 0 CODE 0 text37 dist/default/debug\Sensore.X.debug.obj
+_SPIInit 1D34 0 CODE 0 text49 dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXAwake 1C8C 0 CODE 0 text2 dist/default/debug\Sensore.X.debug.obj
+_NVMInit 1A1E 0 CODE 0 text46 dist/default/debug\Sensore.X.debug.obj
+___ftadd@exp1 4F 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+_OUTInit 1E24 0 CODE 0 text50 dist/default/debug\Sensore.X.debug.obj
+_SYSInit FAA 0 CODE 0 text14 dist/default/debug\Sensore.X.debug.obj
+_RTXInit 1F6C 0 CODE 0 text3 dist/default/debug\Sensore.X.debug.obj
+_ADCConv 82 0 CODE 0 text28 dist/default/debug\Sensore.X.debug.obj
+_flg_slp 6A 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+CC1Strobe@e_stb 78 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__Hcinit 82 0 CODE 0 cinit -
+___ftmul 682 0 CODE 0 text30 dist/default/debug\Sensore.X.debug.obj
+__Lcinit 2C 0 CODE 0 cinit -
+__size_of_CC1Sleep 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftdiv 7EA 0 CODE 0 text31 dist/default/debug\Sensore.X.debug.obj
+_RTXReadPkt BD2 0 CODE 0 text16 dist/default/debug\Sensore.X.debug.obj
+___lwdiv DD4 0 CODE 0 text29 dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMNvmReset 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?_RTXSndPkt 22 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+LEDFastFlash@i 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_ADCConv 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_RTXSendData 93C 0 CODE 0 text20 dist/default/debug\Sensore.X.debug.obj
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_u_SYS_STA AF 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXTask 19BE 0 CODE 0 text15 dist/default/debug\Sensore.X.debug.obj
+SLPSleep@TESTBATTtmp 27 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+?_RTXRcvPkt 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+RTXSndPkt@sta 27 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___awtoft@sign 22 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+clear_ram0 19CA 0 CODE 0 clrtext dist/default/debug\Sensore.X.debug.obj
+___ftpack@arg 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__end_of_NVMRead 2000 0 CODE 0 text43 dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXInit 1FB4 0 CODE 0 text3 dist/default/debug\Sensore.X.debug.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+___ftadd@exp2 4E 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__Hbank10 0 0 ABS 0 bank10 -
+__pbssBANK0 69 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__end_of_DINTick FAA 0 CODE 0 text13 dist/default/debug\Sensore.X.debug.obj
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__size_of_CC1LoadREG 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Lbank23 0 0 BANK23 1 bank23 -
+_PGMSelDown 1ADC 0 CODE 0 text8 dist/default/debug\Sensore.X.debug.obj
+__Hbank14 0 0 BANK14 1 bank14 -
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__Lbank14 0 0 BANK14 1 bank14 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__ptext10 1A4C 0 CODE 0 text10 dist/default/debug\Sensore.X.debug.obj
+CC1Read@dst 77 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__Hbank15 0 0 BANK15 1 bank15 -
+__size_of_RTXReadPkt 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Lbank15 0 0 BANK15 1 bank15 -
+__ptext20 93C 0 CODE 0 text20 dist/default/debug\Sensore.X.debug.obj
+__Hbank25 0 0 BANK25 1 bank25 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__ptext11 A48 0 CODE 0 text11 dist/default/debug\Sensore.X.debug.obj
+__ptext30 682 0 CODE 0 text30 dist/default/debug\Sensore.X.debug.obj
+__Hbank16 0 0 BANK16 1 bank16 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__ptext21 C80 0 CODE 0 text21 dist/default/debug\Sensore.X.debug.obj
+__ptext40 1B24 0 CODE 0 text40 dist/default/debug\Sensore.X.debug.obj
+__Hbank26 0 0 BANK26 1 bank26 -
+__Lbank26 0 0 BANK26 1 bank26 -
+LEDFastFlash@num 78 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__ptext12 19D6 0 CODE 0 text12 dist/default/debug\Sensore.X.debug.obj
+__ptext31 7EA 0 CODE 0 text31 dist/default/debug\Sensore.X.debug.obj
+__ptext50 1E24 0 CODE 0 text50 dist/default/debug\Sensore.X.debug.obj
+__Hbank17 0 0 BANK17 1 bank17 -
+__Lbank17 0 0 BANK17 1 bank17 -
+NVMWrite@latchAddr 63 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__ptext22 1EE6 0 CODE 0 text22 dist/default/debug\Sensore.X.debug.obj
+__ptext41 506 0 CODE 0 text41 dist/default/debug\Sensore.X.debug.obj
+__Hbank27 0 0 BANK27 1 bank27 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__end_of_PGMNvmReset 1B70 0 CODE 0 text39 dist/default/debug\Sensore.X.debug.obj
+__ptext13 F5A 0 CODE 0 text13 dist/default/debug\Sensore.X.debug.obj
+__ptext32 31A 0 CODE 0 text32 dist/default/debug\Sensore.X.debug.obj
+__ptext51 1B98 0 CODE 0 text51 dist/default/debug\Sensore.X.debug.obj
+__Hbank18 0 0 BANK18 1 bank18 -
+__Lbank18 0 0 BANK18 1 bank18 -
+_ADCON0bits 9D 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__ptext23 1CC2 0 CODE 0 text23 dist/default/debug\Sensore.X.debug.obj
+__ptext42 1AFE 0 CODE 0 text42 dist/default/debug\Sensore.X.debug.obj
+__end_of_RTXSendData A48 0 CODE 0 text20 dist/default/debug\Sensore.X.debug.obj
+__Hbank28 0 0 BANK28 1 bank28 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__end_of_PGMTick 1A66 0 CODE 0 text10 dist/default/debug\Sensore.X.debug.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__end_of_RTXSendRPgm 1F6C 0 CODE 0 text17 dist/default/debug\Sensore.X.debug.obj
+_PMCON1bits 195 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__ptext14 FAA 0 CODE 0 text14 dist/default/debug\Sensore.X.debug.obj
+ADCConv@sumBatt 52 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__ptext33 1EA4 0 CODE 0 text33 dist/default/debug\Sensore.X.debug.obj
+__Hbank19 0 0 BANK19 1 bank19 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__pidataBANK1 19E6 0 CODE 0 idataBANK1 dist/default/debug\Sensore.X.debug.obj
+__size_of_NVMRead 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__ptext24 1E64 0 CODE 0 text24 dist/default/debug\Sensore.X.debug.obj
+__ptext43 1FB4 0 CODE 0 text43 dist/default/debug\Sensore.X.debug.obj
+__Hbank29 0 0 BANK29 1 bank29 -
+__Lbank29 0 0 BANK29 1 bank29 -
+SPIRead@dstPtr 74 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__ptext15 19B2 0 CODE 0 text15 dist/default/debug\Sensore.X.debug.obj
+__ptext34 B12 0 CODE 0 text34 dist/default/debug\Sensore.X.debug.obj
+__ptext53 19A6 0 CODE 0 text53 dist/default/debug\Sensore.X.debug.obj
+__ptext25 1B70 0 CODE 0 text25 dist/default/debug\Sensore.X.debug.obj
+__ptext44 1D70 0 CODE 0 text44 dist/default/debug\Sensore.X.debug.obj
+__end_of_PGMSelLong 1A08 0 CODE 0 text7 dist/default/debug\Sensore.X.debug.obj
+RTXSndPkt@src 24 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__ptext16 BD2 0 CODE 0 text16 dist/default/debug\Sensore.X.debug.obj
+__ptext35 1DAC 0 CODE 0 text35 dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMPgmOff 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__ptext26 1CFA 0 CODE 0 text26 dist/default/debug\Sensore.X.debug.obj
+__ptext45 1ABA 0 CODE 0 text45 dist/default/debug\Sensore.X.debug.obj
+__ptext17 1F28 0 CODE 0 text17 dist/default/debug\Sensore.X.debug.obj
+__ptext36 1C26 0 CODE 0 text36 dist/default/debug\Sensore.X.debug.obj
+__ptext27 1DE8 0 CODE 0 text27 dist/default/debug\Sensore.X.debug.obj
+__ptext46 1A1E 0 CODE 0 text46 dist/default/debug\Sensore.X.debug.obj
+__ptext18 1A80 0 CODE 0 text18 dist/default/debug\Sensore.X.debug.obj
+__ptext37 1BC6 0 CODE 0 text37 dist/default/debug\Sensore.X.debug.obj
+__ptext28 82 0 CODE 0 text28 dist/default/debug\Sensore.X.debug.obj
+__ptext47 1A08 0 CODE 0 text47 dist/default/debug\Sensore.X.debug.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_RTXSendRPgm 1F28 0 CODE 0 text17 dist/default/debug\Sensore.X.debug.obj
+__ptext19 1A9C 0 CODE 0 text19 dist/default/debug\Sensore.X.debug.obj
+__ptext38 1A34 0 CODE 0 text38 dist/default/debug\Sensore.X.debug.obj
+__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/debug\Sensore.X.debug.obj
+__ptext29 DD4 0 CODE 0 text29 dist/default/debug\Sensore.X.debug.obj
+__ptext48 F02 0 CODE 0 text48 dist/default/debug\Sensore.X.debug.obj
+__ptext39 1B4A 0 CODE 0 text39 dist/default/debug\Sensore.X.debug.obj
+__ptext49 1D34 0 CODE 0 text49 dist/default/debug\Sensore.X.debug.obj
+_INTCONbits B 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_SSPCONbits 215 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+RTXSndPkt@numTxByte 26 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hend_init 2C 0 CODE 0 end_init -
+__Lend_init 28 0 CODE 0 end_init -
+__size_of_RTXTick 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_u_in_ev_up B2 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+___ftpack@exp 74 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__size_of_NVMInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_nvm_pgm_cfg 1002 0 STRING 0 strings dist/default/debug\Sensore.X.debug.obj
+___lwdiv@divisor 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMWrite@bufTmpRow 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__end_of___ftmul 7EA 0 CODE 0 text30 dist/default/debug\Sensore.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of_DINTask 1DAC 0 CODE 0 text44 dist/default/debug\Sensore.X.debug.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__pidataBANK2 EA4 0 CODE 0 idataBANK2 dist/default/debug\Sensore.X.debug.obj
+__end_of_PGMWriteNvm 1B4A 0 CODE 0 text40 dist/default/debug\Sensore.X.debug.obj
+CC1Write@cc1Addr 21 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__size_of_SYSTask 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_INTIsr 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+intlevel0 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+__end_of_SPIWrite 1D34 0 CODE 0 text26 dist/default/debug\Sensore.X.debug.obj
+intlevel1 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+__end_of_DINInit 1ADC 0 CODE 0 text45 dist/default/debug\Sensore.X.debug.obj
+__size_of_RTXSendData 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+intlevel2 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+__size_of_RTXSendRPgm 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of___awtoft 1EE6 0 CODE 0 text33 dist/default/debug\Sensore.X.debug.obj
+RTXSendData@valTemp 54 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+CC1Write@src 77 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+intlevel3 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+LEDNormalFlash@num 78 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+intlevel4 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+__size_of_ADCInit 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+intlevel5 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s454.obj
+__end_of_PGMInit 1BF6 0 CODE 0 text37 dist/default/debug\Sensore.X.debug.obj
+__size_of_PGMSelLong 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+CC1Read@cc1Addr 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_PGMSelDown 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+_u_in_sta_tmpTask 6F 0 BANK0 1 bssBANK0 dist/default/debug\Sensore.X.debug.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+SLPSleep@WPUBTmp 22 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+SPIWrite@srcPtr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+start_initialization 2C 0 CODE 0 cinit dist/default/debug\Sensore.X.debug.obj
+SLPSleep@WDTCONTmp 23 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+___lwdiv@quotient 76 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+RTXRcvPkt@dst 23 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_CC1Read 1CFA 0 CODE 0 text23 dist/default/debug\Sensore.X.debug.obj
+__pmaintext D2E 0 CODE 0 maintext dist/default/debug\Sensore.X.debug.obj
+__Hinittext 0 0 ABS 0 inittext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__Linittext 0 0 ABS 0 inittext -
+__size_of_RTXAwake 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_SPIInit 1D70 0 CODE 0 text49 dist/default/debug\Sensore.X.debug.obj
+__initialization 2C 0 CODE 0 cinit dist/default/debug\Sensore.X.debug.obj
+RTXSndPkt@len 22 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+SLPSleep@INTCONTmp 21 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+CC1Write@len 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+?_DLYDelay_ms 71 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+SPIWrite@len 73 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMWrite@len 74 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+RTXRcvPkt@len 20 0 BANK0 1 cstackBANK0 dist/default/debug\Sensore.X.debug.obj
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_SLPSleep B12 0 CODE 0 text11 dist/default/debug\Sensore.X.debug.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of_ADCConv 31A 0 CODE 0 text28 dist/default/debug\Sensore.X.debug.obj
+CC1Strobe@cc1Stb 79 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+_sys_pgm_sta AC 0 BANK1 1 bssBANK1 dist/default/debug\Sensore.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__size_of_SLPSleep 0 0 ABS 0 - dist/default/debug\Sensore.X.debug.obj
+__end_of___ftdiv 93C 0 CODE 0 text31 dist/default/debug\Sensore.X.debug.obj
+SPIRead@i 75 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+NVMRead@i 77 0 COMMON 1 cstackCOMMON dist/default/debug\Sensore.X.debug.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2 CODE
+intentry 0 4 8 7FB 2 CODE
+config 0 8007 1000E 2 2 CONFIG
+cstackCOMMON 1 70 70 D 1 COMMON
+cstackBANK0 1 20 20 50 1 BANK0
+dataBANK2 1 120 120 2F 1 BANK2
+bssBANK1 1 A0 A0 32 1 BANK1
+text43 0 FDA 1FB4 26 2 CODE
+text3 0 FB6 1F6C 24 2 CODE
+text17 0 F94 1F28 22 2 CODE
+text22 0 F73 1EE6 21 2 CODE
+text33 0 F52 1EA4 21 2 CODE
+text24 0 F32 1E64 20 2 CODE
+text50 0 F12 1E24 20 2 CODE
+text27 0 EF4 1DE8 1E 2 CODE
+text35 0 ED6 1DAC 1E 2 CODE
+text44 0 EB8 1D70 1E 2 CODE
+text49 0 E9A 1D34 1E 2 CODE
+text26 0 E7D 1CFA 1D 2 CODE
+text23 0 E61 1CC2 1C 2 CODE
+text4 0 E46 1C8C 1B 2 CODE
+text2 0 E2C 1C58 1A 2 CODE
+text36 0 E13 1C26 19 2 CODE
+text5 0 DFB 1BF6 18 2 CODE
+text37 0 DE3 1BC6 18 2 CODE
+text51 0 DCC 1B98 17 2 CODE
+text25 0 DB8 1B70 14 2 CODE
+text39 0 DA5 1B4A 13 2 CODE
+text40 0 D92 1B24 13 2 CODE
+text42 0 D7F 1AFE 13 2 CODE
+text8 0 D6E 1ADC 11 2 CODE
+text45 0 D5D 1ABA 11 2 CODE
+text19 0 D4E 1A9C F 2 CODE
+text18 0 D40 1A80 E 2 CODE
+text6 0 D33 1A66 D 2 CODE
+text10 0 D26 1A4C D 2 CODE
+text38 0 D1A 1A34 C 2 CODE
+text46 0 D0F 1A1E B 2 CODE
+text47 0 D04 1A08 B 2 CODE
+text7 0 CFB 19F6 9 2 CODE
+idataBANK1 0 CF3 19E6 8 2 CODE
+text12 0 CEB 19D6 8 2 CODE
+strings 0 800 1000 6 2 STRING
+clrtext 0 CE5 19CA 6 2 CODE
+inittext 0 CDF 19BE 6 2 CODE
+text15 0 CD9 19B2 6 2 CODE
+text53 0 CD3 19A6 6 2 CODE

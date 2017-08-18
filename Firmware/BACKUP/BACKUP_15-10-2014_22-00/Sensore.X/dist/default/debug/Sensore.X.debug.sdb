@@ -1,0 +1,794 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F883 ]
+"18 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c
+[e E1555 _ADC_CH `uc
+ADC_CH_BATT 0
+ADC_CH_TEMP 1
+]
+"85 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[e E1563 _CC1_STB `uc
+SRES 48
+SFSTXON 49
+SXOFF 50
+SCAL 51
+SRX 52
+STX 53
+SIDLE 54
+SWOR 56
+SPWD 57
+SFRX 58
+SFTX 59
+SWORRST 60
+SNOP 61
+]
+"70 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[e E1549 _CC1_STB `uc
+SRES 48
+SFSTXON 49
+SXOFF 50
+SCAL 51
+SRX 52
+STX 53
+SIDLE 54
+SWOR 56
+SPWD 57
+SFRX 58
+SFTX 59
+SWORRST 60
+SNOP 61
+]
+"158
+[e E1666 _RTX_OP `uc
+DAT 0
+PGM 1
+rDAT 128
+rPGM 129
+]
+"21 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c
+[v _ADCInit ADCInit `(v  1 e 0 0 ]
+"45
+[v _ADCTask ADCTask `(v  1 e 0 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"34 C:\Programmi\Microchip\xc8\v1.21\sources\pic\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"43 C:\Programmi\Microchip\xc8\v1.21\sources\pic\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Programmi\Microchip\xc8\v1.21\sources\pic\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"33 C:\Programmi\Microchip\xc8\v1.21\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 C:\Programmi\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"7 C:\Programmi\Microchip\xc8\v1.21\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"25
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"49
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"57
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"65
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"73
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"81
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"88
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"95
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"102
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"109
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"117
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"125
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"132
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"7 C:\Programmi\Microchip\xc8\v1.21\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"7 C:\Programmi\Microchip\xc8\v1.21\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 0 0 ]
+"63 C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"87 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"17 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"36 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 C:\Programmi\Microchip\xc8\v1.21\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"74 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _CC1Init CC1Init `(v  1 e 0 0 ]
+"93
+[v _CC1Strobe CC1Strobe `(v  1 e 0 0 ]
+"108
+[v _CC1Read CC1Read `(v  1 e 0 0 ]
+"126
+[v _CC1Write CC1Write `(v  1 e 0 0 ]
+"144
+[v _CC1Sleep CC1Sleep `(v  1 e 0 0 ]
+"25 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c
+[v _DINInit DINInit `(v  1 e 0 0 ]
+"47
+[v _DINTick DINTick `(v  1 e 0 0 ]
+"80
+[v _DINTask DINTask `(v  1 e 0 0 ]
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c
+[v _DLYDelay_ms DLYDelay_ms `(v  1 e 0 0 ]
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c
+[v _INInit INInit `(v  1 e 0 0 ]
+"8 D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c
+[v _LEDInit LEDInit `(v  1 e 0 0 ]
+"25
+[v _LEDNormalFlash LEDNormalFlash `(v  1 e 0 0 ]
+"39
+[v _LEDFastFlash LEDFastFlash `(v  1 e 0 0 ]
+"5 D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c
+[v _NVMRead NVMRead `(v  1 e 0 0 ]
+"16
+[v _NVMWrite NVMWrite `(v  1 e 0 0 ]
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c
+[v _OUTInit OUTInit `(v  1 e 0 0 ]
+"21 D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c
+[v _PGMInit PGMInit `(v  1 e 0 0 ]
+"40
+[v _PGMReadNvm PGMReadNvm `(v  1 s 0 PGMReadNvm ]
+"45
+[v _PGMWriteNvm PGMWriteNvm `(v  1 e 0 0 ]
+"50
+[v _PGMCheckNvm PGMCheckNvm `(v  1 s 0 PGMCheckNvm ]
+"56
+[v _PGMNvmReset PGMNvmReset `(v  1 s 0 PGMNvmReset ]
+"71
+[v _PGMSelLong PGMSelLong `(v  1 e 0 0 ]
+"54 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[v _RTXInit RTXInit `(v  1 e 0 0 ]
+"79
+[v _RTXTick RTXTick `(v  1 e 0 0 ]
+"105
+[v _RTXTask RTXTask `(v  1 e 0 0 ]
+"112
+[v _RTXSndPkt RTXSndPkt `(v  1 s 0 RTXSndPkt ]
+"136
+[v _RTXRcvPkt RTXRcvPkt `(v  1 s 0 RTXRcvPkt ]
+"142
+[v _RTXReadPkt RTXReadPkt `(v  1 e 0 0 ]
+"202
+[v _RTXSendData RTXSendData `(v  1 s 0 RTXSendData ]
+"230
+[v _RTXSendRPgm RTXSendRPgm `(v  1 s 0 RTXSendRPgm ]
+"243
+[v _RTXSelDown RTXSelDown `(v  1 e 0 0 ]
+"27 D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c
+[v _INTIsr INTIsr `II(v  1 e 0 0 ]
+"40
+[v _main main `(v  1 e 0 0 ]
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c
+[v _SLPSleep SLPSleep `(v  1 e 0 0 ]
+"9 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c
+[v _SPIInit SPIInit `(v  1 e 0 0 ]
+"26
+[v _SPIRead SPIRead `(v  1 e 0 0 ]
+"40
+[v _SPIWrite SPIWrite `(v  1 e 0 0 ]
+"17 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c
+[v _SYSInit SYSInit `(v  1 e 0 0 ]
+"35
+[v _SYSInt SYSInt `(v  1 e 0 0 ]
+"44
+[v _SYSTask SYSTask `(v  1 e 0 0 ]
+"18 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c
+[v _adc_ch adc_ch `E1555  1 e 1 0 ]
+"2 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.h
+[v _batt batt `uc  1 e 1 0 ]
+[v _temp temp `uc  1 e 1 0 ]
+"50 C:\Programmi\Microchip\xc8\v1.21\include\pic16f883.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+[s S213 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"172
+[u S222 . 1 `S213 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES222  1 e 1 @5 ]
+"233
+[v _PORTBbits PORTBbits `VES222  1 e 1 @6 ]
+"277
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"294
+[v _PORTCbits PORTCbits `VES222  1 e 1 @7 ]
+"364
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S685 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"387
+[s S694 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S699 . 1 `S685 1 . 1 0 `S694 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES699  1 e 1 @11 ]
+"441
+[v _PIR1 PIR1 `VEuc  1 e 1 @12 ]
+[s S62 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"457
+[u S70 . 1 `S62 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES70  1 e 1 @12 ]
+"496
+[v _PIR2 PIR2 `VEuc  1 e 1 @13 ]
+"558
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"564
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"570
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"739
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"745
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S32 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"765
+[s S38 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S43 . 1 `S32 1 . 1 0 `S38 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES43  1 e 1 @20 ]
+"1121
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1127
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S117 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1158
+[s S122 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S131 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S134 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S137 . 1 `S117 1 . 1 0 `S122 1 . 1 0 `S131 1 . 1 0 `S134 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES137  1 e 1 @31 ]
+"1227
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1296
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1357
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1418
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _PIE1 PIE1 `VEuc  1 e 1 @140 ]
+"1554
+[v _PIE2 PIE2 `VEuc  1 e 1 @141 ]
+"1656
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"1771
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1965
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2133
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"2202
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"2754
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2787
+[v _WDTCON WDTCON `VEuc  1 e 1 @261 ]
+"3017
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"3028
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"3153
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3196
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3245
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+"3289
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"3435
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"3521
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3709
+[v _RD RD `VEb  1 e 0 @3168 ]
+"3965
+[v _WR WR `VEb  1 e 0 @3169 ]
+"3967
+[v _WREN WREN `VEb  1 e 0 @3170 ]
+"10 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _cc1InitVal cc1InitVal `[47]uc  1 e 47 0 ]
+"61
+[v _cc1PaTable cc1PaTable `[8]uc  1 e 8 0 ]
+[s S185 _CC1_FLG 1 `uc 1 PCK_RCV 1 0 :1:0 
+]
+"51 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.h
+[v _s_CC1_FLG s_CC1_FLG `S185  1 e 1 0 ]
+[s S329 . 1 `uc 1 tmrDbncSel 1 0 :1:0 
+`uc 1 tmrLongSel 1 0 :1:1 
+]
+"19 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c
+[u S332 _FLG_DIN 1 `uc 1 val 1 0 `S329 1 . 1 0 ]
+[v _u_flg_din u_flg_din `S332  1 s 1 u_flg_din ]
+[s S324 . 1 `uc 1 sel 1 0 :1:0 
+]
+"20
+[u S326 _STA_DIN 1 `uc 1 val 1 0 `S324 1 . 1 0 ]
+[v _u_in_sta_currTask u_in_sta_currTask `S326  1 s 1 u_in_sta_currTask ]
+[v _u_in_sta_tmpTask u_in_sta_tmpTask `S326  1 s 1 u_in_sta_tmpTask ]
+"21
+[v _tmrDbncSel tmrDbncSel `uc  1 s 1 tmrDbncSel ]
+"22
+[v _tmrLongSel tmrLongSel `us  1 s 2 tmrLongSel ]
+[s S324 . 1 `uc 1 sel 1 0 :1:0 
+]
+"11 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.h
+[u S326 _STA_DIN 1 `uc 1 val 1 0 `S324 1 . 1 0 ]
+[v _u_in_ev_up u_in_ev_up `S326  1 e 1 0 ]
+[v _u_in_ev_down u_in_ev_down `S326  1 e 1 0 ]
+[v _u_in_ev_long u_in_ev_long `S326  1 e 1 0 ]
+[s S432 _PGM_CFG 5 `uc 1 valChk1 1 0 `uc 1 valChk2 1 1 `uc 1 menu 1 2 `uc 1 sensId 1 3 `uc 1 baseId 1 4 ]
+"12 D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.h
+[v _pgm_cfg pgm_cfg `S432  1 e 5 0 ]
+[s S486 . 1 `uc 1 pgmRq 1 0 :1:0 
+]
+"44 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[u S488 _RTX_FLG 1 `uc 1 val 1 0 `S486 1 . 1 0 ]
+[v _rtx_flg rtx_flg `S488  1 e 1 0 ]
+"45
+[v _pktRx pktRx `[5]uc  1 s 5 pktRx ]
+[v _pktTx pktTx `[5]uc  1 s 5 pktTx ]
+[v _cntSndData cntSndData `uc  1 s 1 cntSndData ]
+[v _tmrPgm tmrPgm `uc  1 s 1 tmrPgm ]
+[v _tmrRcvPkt tmrRcvPkt `uc  1 s 1 tmrRcvPkt ]
+[s S481 . 2 `ui 1 sleep 2 0 ]
+"27 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.h
+[u S483 _RTX_EV 2 `uc 1 val 1 0 `S481 1 . 2 0 ]
+[v _rtx_ev rtx_ev `S483  1 e 2 0 ]
+[s S402 . 1 `uc 1 exitSleep 1 0 :1:0 
+]
+"11 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.h
+[u S404 _FLG_SPL 1 `uc 1 val 1 0 `S402 1 . 1 0 ]
+[v _flg_slp flg_slp `S404  1 e 1 0 ]
+[s S612 . 1 `uc 1 TICK 1 0 :1:0 
+]
+"11 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.h
+[u S614 _SYS_STA 1 `uc 1 VAL 1 0 `S612 1 . 1 0 ]
+[v _u_SYS_STA u_SYS_STA `S614  1 e 1 0 ]
+"12
+[v _sys_pgm_sta sys_pgm_sta `uc  1 e 1 0 ]
+"40 D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c
+[v _main main `(v  1 e 0 0 ]
+{
+"41
+[v main@i i `uc  1 a 1 20 ]
+"74
+} 0
+"44 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c
+[v _SYSTask SYSTask `(v  1 e 0 0 ]
+{
+"45
+[v SYSTask@i i `uc  1 a 1 18 ]
+"81
+} 0
+"79 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[v _RTXTick RTXTick `(v  1 e 0 0 ]
+{
+"102
+} 0
+"71 D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c
+[v _PGMSelLong PGMSelLong `(v  1 e 0 0 ]
+{
+"80
+} 0
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SLP.c
+[v _SLPSleep SLPSleep `(v  1 e 0 0 ]
+{
+"8
+[v SLPSleep@OPTION_REGTmp OPTION_REGTmp `uc  1 a 1 11 ]
+[v SLPSleep@WDTCONTmp WDTCONTmp `uc  1 a 1 10 ]
+[v SLPSleep@WPUBTmp WPUBTmp `uc  1 a 1 9 ]
+[v SLPSleep@INTCONTmp INTCONTmp `uc  1 a 1 8 ]
+[v SLPSleep@IOCBTmp IOCBTmp `uc  1 a 1 7 ]
+"36
+} 0
+"144 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _CC1Sleep CC1Sleep `(v  1 e 0 0 ]
+{
+"152
+} 0
+"47 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c
+[v _DINTick DINTick `(v  1 e 0 0 ]
+{
+"77
+} 0
+"74 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _CC1Init CC1Init `(v  1 e 0 0 ]
+{
+[v CC1Init@state state `uc  1 a 1 10 ]
+[v CC1Init@state state `uc  1 a 1 10 ]
+"90
+} 0
+"17 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c
+[v _SYSInit SYSInit `(v  1 e 0 0 ]
+{
+[v SYSInit@state state `uc  1 a 1 0 ]
+[v SYSInit@state state `uc  1 a 1 0 ]
+"32
+} 0
+"105 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[v _RTXTask RTXTask `(v  1 e 0 0 ]
+{
+"109
+} 0
+"142
+[v _RTXReadPkt RTXReadPkt `(v  1 e 0 0 ]
+{
+"143
+[v RTXReadPkt@numRxByte numRxByte `uc  1 a 1 18 ]
+"199
+} 0
+"230
+[v _RTXSendRPgm RTXSendRPgm `(v  1 s 0 RTXSendRPgm ]
+{
+"240
+} 0
+"136
+[v _RTXRcvPkt RTXRcvPkt `(v  1 s 0 RTXRcvPkt ]
+{
+[v RTXRcvPkt@dst dst `*.4uc  1 a 1 12 ]
+[v RTXRcvPkt@dst dst `*.4uc  1 a 1 12 ]
+[v RTXRcvPkt@len len `uc  1 p 1 9 ]
+"139
+} 0
+"25 D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c
+[v _LEDNormalFlash LEDNormalFlash `(v  1 e 0 0 ]
+{
+[v LEDNormalFlash@num num `uc  1 a 1 6 ]
+"26
+[v LEDNormalFlash@i i `uc  1 a 1 7 ]
+"25
+[v LEDNormalFlash@num num `uc  1 a 1 6 ]
+"36
+} 0
+"54 D:\Progetti\Termometro wireless\Firmware\Sensore.X\RTX.c
+[v _RTXInit RTXInit `(v  1 e 0 0 ]
+{
+[v RTXInit@state state `uc  1 a 1 17 ]
+[v RTXInit@state state `uc  1 a 1 17 ]
+"76
+} 0
+"202
+[v _RTXSendData RTXSendData `(v  1 s 0 RTXSendData ]
+{
+"227
+} 0
+"112
+[v _RTXSndPkt RTXSndPkt `(v  1 s 0 RTXSndPkt ]
+{
+[v RTXSndPkt@src src `*.4uc  1 a 1 12 ]
+"113
+[v RTXSndPkt@sta sta `uc  1 a 1 15 ]
+[v RTXSndPkt@numTxByte numTxByte `uc  1 a 1 14 ]
+[v RTXSndPkt@numRxByte numRxByte `uc  1 a 1 13 ]
+"112
+[v RTXSndPkt@src src `*.4uc  1 a 1 12 ]
+[v RTXSndPkt@len len `uc  1 p 1 9 ]
+"133
+} 0
+"108 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _CC1Read CC1Read `(v  1 e 0 0 ]
+{
+[v CC1Read@addr addr `uc  1 a 1 7 ]
+"109
+[v CC1Read@cc1Addr cc1Addr `uc  1 a 1 8 ]
+"108
+[v CC1Read@addr addr `uc  1 a 1 7 ]
+[v CC1Read@dst dst `*.4uc  1 p 1 4 ]
+[v CC1Read@len len `uc  1 p 1 5 ]
+"123
+} 0
+"26 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c
+[v _SPIRead SPIRead `(v  1 e 0 0 ]
+{
+[v SPIRead@dstPtr dstPtr `*.4uc  1 a 1 2 ]
+"27
+[v SPIRead@i i `uc  1 a 1 3 ]
+"26
+[v SPIRead@dstPtr dstPtr `*.4uc  1 a 1 2 ]
+[v SPIRead@len len `uc  1 p 1 4 ]
+"37
+} 0
+"126 D:\Progetti\Termometro wireless\Firmware\Sensore.X\CC1.c
+[v _CC1Write CC1Write `(v  1 e 0 0 ]
+{
+[v CC1Write@addr addr `uc  1 a 1 6 ]
+"127
+[v CC1Write@cc1Addr cc1Addr `uc  1 a 1 7 ]
+"126
+[v CC1Write@addr addr `uc  1 a 1 6 ]
+[v CC1Write@src src `*.4uc  1 p 1 3 ]
+[v CC1Write@len len `uc  1 p 1 4 ]
+"141
+} 0
+"93
+[v _CC1Strobe CC1Strobe `(v  1 e 0 0 ]
+{
+[v CC1Strobe@e_stb e_stb `E1563  1 a 1 4 ]
+"94
+[v CC1Strobe@cc1Stb cc1Stb `uc  1 a 1 5 ]
+"93
+[v CC1Strobe@e_stb e_stb `E1563  1 a 1 4 ]
+"105
+} 0
+"40 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c
+[v _SPIWrite SPIWrite `(v  1 e 0 0 ]
+{
+[v SPIWrite@srcPtr srcPtr `*.4uc  1 a 1 1 ]
+"41
+[v SPIWrite@i i `uc  1 a 1 2 ]
+"40
+[v SPIWrite@srcPtr srcPtr `*.4uc  1 a 1 1 ]
+[v SPIWrite@len len `uc  1 p 1 4 ]
+"50
+} 0
+"39 D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c
+[v _LEDFastFlash LEDFastFlash `(v  1 e 0 0 ]
+{
+[v LEDFastFlash@num num `uc  1 a 1 6 ]
+"40
+[v LEDFastFlash@i i `uc  1 a 1 7 ]
+"39
+[v LEDFastFlash@num num `uc  1 a 1 6 ]
+"50
+} 0
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DLY.c
+[v _DLYDelay_ms DLYDelay_ms `(v  1 e 0 0 ]
+{
+"8
+[v DLYDelay_ms@i i `us  1 a 2 4 ]
+"7
+[v DLYDelay_ms@val val `us  1 p 2 0 ]
+"15
+} 0
+"21 D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c
+[v _PGMInit PGMInit `(v  1 e 0 0 ]
+{
+[v PGMInit@state state `uc  1 a 1 11 ]
+[v PGMInit@state state `uc  1 a 1 11 ]
+"37
+} 0
+"50
+[v _PGMCheckNvm PGMCheckNvm `(v  1 s 0 PGMCheckNvm ]
+{
+"53
+} 0
+"56
+[v _PGMNvmReset PGMNvmReset `(v  1 s 0 PGMNvmReset ]
+{
+"68
+} 0
+"45
+[v _PGMWriteNvm PGMWriteNvm `(v  1 e 0 0 ]
+{
+"47
+} 0
+"16 D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c
+[v _NVMWrite NVMWrite `(v  1 e 0 0 ]
+{
+[v NVMWrite@addr addr `uc  1 a 1 6 ]
+"17
+[v NVMWrite@i i `uc  1 a 1 7 ]
+"16
+[v NVMWrite@addr addr `uc  1 a 1 6 ]
+[v NVMWrite@source source `*.4uc  1 p 1 2 ]
+[v NVMWrite@len len `uc  1 p 1 3 ]
+"24
+} 0
+"7 C:\Programmi\Microchip\xc8\v1.21\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 0 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 1 ]
+[v eeprom_write@addr addr `uc  1 a 1 1 ]
+[v eeprom_write@value value `uc  1 p 1 4 ]
+"9
+} 0
+"40 D:\Progetti\Termometro wireless\Firmware\Sensore.X\PGM.c
+[v _PGMReadNvm PGMReadNvm `(v  1 s 0 PGMReadNvm ]
+{
+"42
+} 0
+"5 D:\Progetti\Termometro wireless\Firmware\Sensore.X\NVM.c
+[v _NVMRead NVMRead `(v  1 e 0 0 ]
+{
+[v NVMRead@addr addr `uc  1 a 1 5 ]
+"6
+[v NVMRead@i i `uc  1 a 1 6 ]
+"5
+[v NVMRead@addr addr `uc  1 a 1 5 ]
+[v NVMRead@dest dest `*.4uc  1 p 1 1 ]
+[v NVMRead@len len `uc  1 p 1 2 ]
+"13
+} 0
+"7 C:\Programmi\Microchip\xc8\v1.21\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 0 ]
+[v eeprom_read@addr addr `uc  1 a 1 0 ]
+"12
+} 0
+"80 D:\Progetti\Termometro wireless\Firmware\Sensore.X\DIN.c
+[v _DINTask DINTask `(v  1 e 0 0 ]
+{
+"101
+} 0
+"25
+[v _DINInit DINInit `(v  1 e 0 0 ]
+{
+[v DINInit@sta sta `uc  1 a 1 4 ]
+[v DINInit@sta sta `uc  1 a 1 4 ]
+"44
+} 0
+"8 D:\Progetti\Termometro wireless\Firmware\Sensore.X\LED.c
+[v _LEDInit LEDInit `(v  1 e 0 0 ]
+{
+[v LEDInit@sta sta `uc  1 a 1 4 ]
+[v LEDInit@sta sta `uc  1 a 1 4 ]
+"22
+} 0
+"45 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c
+[v _ADCTask ADCTask `(v  1 e 0 0 ]
+{
+"46
+[v ADCTask@sumBatt sumBatt `us  1 s 2 sumBatt ]
+[v ADCTask@sumTemp sumTemp `us  1 s 2 sumTemp ]
+"47
+[v ADCTask@cntSum cntSum `uc  1 s 1 cntSum ]
+"98
+} 0
+"5 C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"6
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"7
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"21 D:\Progetti\Termometro wireless\Firmware\Sensore.X\ADC.c
+[v _ADCInit ADCInit `(v  1 e 0 0 ]
+{
+[v ADCInit@state state `uc  1 a 1 0 ]
+[v ADCInit@state state `uc  1 a 1 0 ]
+"42
+} 0
+"9 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SPI.c
+[v _SPIInit SPIInit `(v  1 e 0 0 ]
+{
+[v SPIInit@state state `uc  1 a 1 0 ]
+[v SPIInit@state state `uc  1 a 1 0 ]
+"23
+} 0
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\OUT.c
+[v _OUTInit OUTInit `(v  1 e 0 0 ]
+{
+[v OUTInit@sta sta `uc  1 a 1 0 ]
+[v OUTInit@sta sta `uc  1 a 1 0 ]
+"21
+} 0
+"7 D:\Progetti\Termometro wireless\Firmware\Sensore.X\IN.c
+[v _INInit INInit `(v  1 e 0 0 ]
+{
+[v INInit@sta sta `uc  1 a 1 0 ]
+[v INInit@sta sta `uc  1 a 1 0 ]
+"21
+} 0
+"27 D:\Progetti\Termometro wireless\Firmware\Sensore.X\Sensore.c
+[v _INTIsr INTIsr `II(v  1 e 0 0 ]
+{
+"37
+} 0
+"35 D:\Progetti\Termometro wireless\Firmware\Sensore.X\SYS.c
+[v _SYSInt SYSInt `(v  1 e 0 0 ]
+{
+"41
+} 0

@@ -1,0 +1,1999 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+end_init CODE 0 11 11 2 2
+reset_vec CODE 0 0 0 3 2
+config CONFIG 0 8007 8007 2 2
+$dist/default/debug\Base.X.debug.obj
+cinit CODE 0 13 13 30 2
+intentry CODE 0 4 4 D 2
+text70 CODE 0 15E5 15E5 6 2
+text68 CODE 0 1716 1716 17 2
+text67 CODE 0 172D 172D 17 2
+text66 CODE 0 868 868 1E 2
+text65 CODE 0 17C6 17C6 1D 2
+text64 CODE 0 16EC 16EC 14 2
+text63 CODE 0 8A8 8A8 23 2
+text62 CODE 0 AD3 AD3 30 2
+text61 CODE 0 1624 1624 B 2
+text60 CODE 0 167E 167E 11 2
+text59 CODE 0 17E3 17E3 1D 2
+text58 CODE 0 1744 1744 19 2
+text57 CODE 0 17AA 17AA 1C 2
+text56 CODE 0 168F 168F 11 2
+text55 CODE 0 DB9 DB9 56 2
+text54 CODE 0 A4A A4A 2C 2
+text53 CODE 0 9CE 9CE 28 2
+text52 CODE 0 16A0 16A0 13 2
+text51 CODE 0 935 935 26 2
+text50 CODE 0 16B3 16B3 13 2
+text49 CODE 0 5C0 5C0 BE 2
+text48 CODE 0 16C6 16C6 13 2
+text47 CODE 0 16D9 16D9 13 2
+text46 CODE 0 163A 163A C 2
+text45 CODE 0 1776 1776 1A 2
+text44 CODE 0 1700 1700 16 2
+text43 CODE 0 1612 1612 9 2
+text42 CODE 0 BA4 BA4 40 2
+text41 CODE 0 C27 C27 49 2
+text40 CODE 0 B33 B33 36 2
+text39 CODE 0 A76 A76 2E 2
+text38 CODE 0 E6F E6F 76 2
+text37 CODE 0 9F6 9F6 29 2
+text36 CODE 0 1652 1652 E 2
+text35 CODE 0 CBE CBE 53 2
+text34 CODE 0 BE4 BE4 43 2
+text33 CODE 0 84B 84B 1D 2
+text32 CODE 0 2EE 2EE 1DC 2
+text31 CODE 0 B69 B69 3B 2
+text30 CODE 0 E0F E0F 60 2
+text29 CODE 0 67E 67E B4 2
+text28 CODE 0 160A 160A 8 2
+text27 CODE 0 4CA 4CA F6 2
+text26 CODE 0 175D 175D 19 2
+text25 CODE 0 EE5 EE5 87 2
+text24 CODE 0 A1F A1F 2B 2
+text23 CODE 0 732 732 A3 2
+text22 CODE 0 D11 D11 53 2
+text21 CODE 0 43 43 2AB 2
+text20 CODE 0 95B 95B 26 2
+text19 CODE 0 981 981 26 2
+text18 CODE 0 911 911 24 2
+text17 CODE 0 1660 1660 E 2
+text16 CODE 0 1603 1603 7 2
+text15 CODE 0 D64 D64 55 2
+text14 CODE 0 886 886 22 2
+text13 CODE 0 1790 1790 1A 2
+text12 CODE 0 F6C F6C 94 2
+text11 CODE 0 15EB 15EB 6 2
+text10 CODE 0 8CB 8CB 23 2
+text9 CODE 0 9A7 9A7 27 2
+text8 CODE 0 15F1 15F1 6 2
+text7 CODE 0 166E 166E 10 2
+text6 CODE 0 162F 162F B 2
+text5 CODE 0 1646 1646 C 2
+text4 CODE 0 8EE 8EE 23 2
+text3 CODE 0 7D5 7D5 2B 2
+text2 CODE 0 161B 161B 9 2
+text1 CODE 0 B03 B03 30 2
+maintext CODE 0 C70 C70 4E 2
+cstackBANK0 BANK0 1 20 20 4B 1
+cstackCOMMON COMMON 1 70 70 C 1
+cstackBANK1 BANK1 1 D1 D1 1A 1
+inittext CODE 0 15F7 15F7 6 2
+clrtext CODE 0 15FD 15FD 6 2
+dataBANK3 BANK3 1 1A0 1A0 2F 1
+dataBANK2 BANK2 1 14A 14A 11 1
+bssBANK2 BANK2 1 120 120 2A 1
+bssBANK1 BANK1 1 A0 A0 31 1
+bssBANK0 BANK0 1 6B 6B 5 1
+bssCOMMON COMMON 1 7C 7C 1 1
+strings STRING 0 800 800 39 2
+idataBANK3 CODE 0 AA4 AA4 2F 2
+idataBANK2 CODE 0 83A 83A 11 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK1 000EB-000EF 1
+BANK10 00520-0056F 1
+BANK11 005A0-005EF 1
+BANK12 00620-0064F 1
+BANK2 0015B-0016F 1
+BANK3 001CF-001EF 1
+BANK4 00220-0026F 1
+BANK5 002A0-002EF 1
+BANK6 00320-0036F 1
+BANK7 003A0-003EF 1
+BANK8 00420-0046F 1
+BANK9 004A0-004EF 1
+BIGRAM 02000-023EF 1
+CODE 00003-00003 2
+CODE 00839-00839 2
+CODE 01000-015E4 2
+CODE 01800-03FFF 2
+COMMON 0007D-0007D 1
+CONST 00003-00003 2
+CONST 00839-00839 2
+CONST 01000-015E4 2
+CONST 01800-03FFF 2
+ENTRY 00003-00003 2
+ENTRY 00839-00839 2
+ENTRY 01000-015E4 2
+ENTRY 01800-03FFF 2
+IDLOC 08000-08003 2
+RAM 000EB-000EF 1
+RAM 0015B-0016F 1
+RAM 001CF-001EF 1
+RAM 00220-0026F 1
+RAM 002A0-002EF 1
+RAM 00320-0036F 1
+RAM 003A0-003EF 1
+RAM 00420-0046F 1
+RAM 004A0-004EF 1
+RAM 00520-0056F 1
+RAM 005A0-005EF 1
+RAM 00620-0064F 1
+SFR0 00000-0001F 1
+SFR1 00080-0009F 1
+SFR10 00500-0051F 1
+SFR11 00580-0059F 1
+SFR12 00600-0061F 1
+SFR13 00680-006EF 1
+SFR14 00700-0076F 1
+SFR15 00780-007EF 1
+SFR16 00800-0086F 1
+SFR17 00880-008EF 1
+SFR18 00900-0096F 1
+SFR19 00980-009EF 1
+SFR2 00100-0011F 1
+SFR20 00A00-00A6F 1
+SFR21 00A80-00AEF 1
+SFR22 00B00-00B6F 1
+SFR23 00B80-00BEF 1
+SFR24 00C00-00C6F 1
+SFR25 00C80-00CEF 1
+SFR26 00D00-00D6F 1
+SFR27 00D80-00DEF 1
+SFR28 00E00-00E6F 1
+SFR29 00E80-00EEF 1
+SFR3 00180-0019F 1
+SFR30 00F00-00F6F 1
+SFR31 00F80-00FEF 1
+SFR4 00200-0021F 1
+SFR5 00280-0029F 1
+SFR6 00300-0031F 1
+SFR7 00380-0039F 1
+SFR8 00400-0041F 1
+SFR9 00480-0049F 1
+STRCODE 00003-00003 2
+STRCODE 00839-00839 2
+STRCODE 01000-015E4 2
+STRCODE 01800-03FFF 2
+STRING 00003-00003 2
+STRING 00839-00839 2
+STRING 01000-015E4 2
+STRING 01800-03FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Base.X.debug.obj
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":38 4 intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":40 8 intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":43 A intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":46 B intentry CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":48 D intentry CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3254 13 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3258 14 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3259 15 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3260 16 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3261 17 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3262 18 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3266 19 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3267 1A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3268 1B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3269 1C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3270 1D cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3271 1E cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3275 21 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3276 22 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3277 23 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3278 24 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3279 25 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3280 26 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3295 29 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3296 2A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3297 2B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3298 2C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3299 2D cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3300 2E cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3301 2F cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3302 30 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3303 31 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3304 32 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3308 35 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3309 36 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3310 37 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3311 38 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3312 39 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3313 3A cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3314 3B cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3315 3C cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3316 3D cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3317 3E cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3324 40 cinit CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3325 41 cinit CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":118 43 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":119 4A text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":118 55 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":120 5E text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":121 63 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":120 6F text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":123 78 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":125 80 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":126 86 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":127 8C text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":128 92 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":129 98 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":130 9E text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":131 A4 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":132 AA text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":133 B0 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":134 B6 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":135 BC text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":136 C2 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":137 C8 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":138 CE text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":139 D4 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":140 E2 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":141 E8 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":142 EE text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":143 F4 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":145 F9 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":146 FF text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":147 105 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":151 10A text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":152 11C text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":153 127 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":154 130 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":156 139 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":157 146 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":160 147 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":161 14D text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":162 153 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":163 159 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":164 15F text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":165 165 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":166 16B text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":167 171 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":168 177 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":169 17D text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":170 183 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":171 189 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":172 18F text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":173 19D text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":175 1A2 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":177 1B9 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":178 1BA text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":181 1BF text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":183 1CB text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":184 1CE text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":187 1D4 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":189 1D8 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":190 1F5 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":193 1F6 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":196 202 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":178 215 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":200 21E text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":201 224 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":202 235 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":205 23B text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":206 240 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":209 247 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":210 266 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":211 26B text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":210 27C text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":214 282 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":215 28F text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":216 29D text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":217 2AF text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":218 2B1 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":219 2B2 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":221 2B6 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":222 2BC text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":223 2C2 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":224 2C8 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":225 2CE text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":226 2D4 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":227 2DA text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":229 2E0 text21 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":231 2EE text21 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":542 2EE text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":545 2F4 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":547 2FF text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":550 303 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":551 30F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":555 310 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":557 312 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":606 313 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":607 31C text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":609 31F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":610 334 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":611 346 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":620 34F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":622 357 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":630 35B text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":631 35D text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":632 366 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":631 38B text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":635 38C text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":644 38F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":652 390 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":653 391 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":827 392 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":831 396 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":644 397 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1288 3A8 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1289 3AA text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1293 3B7 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1297 3C8 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1298 3D2 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1312 3D6 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1313 3DC text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1312 403 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1346 40B text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1347 41C text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1348 422 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1349 434 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1388 43A text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1389 44C text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1391 457 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1435 45A text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1437 45E text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1438 46A text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1496 46F text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1531 4AB text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1481 4B7 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1545 4C4 text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":90 4CA text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":1548 4CA text32 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":91 4D7 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":92 4E3 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":93 4F2 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":94 4F9 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":96 508 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":97 50C text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":98 50D text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":99 50E text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":100 50F text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":101 510 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":102 511 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":103 517 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":104 518 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":106 51E text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":110 522 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":111 528 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":112 52A text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":114 535 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":115 53B text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":113 53F text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":117 544 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":121 548 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":122 54E text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":123 550 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":125 55B text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":126 561 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":124 565 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":129 569 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":131 56B text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":132 571 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":134 57B text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":136 57D text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":137 583 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":139 58D text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":140 58E text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":141 594 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":142 596 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":143 59C text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":144 5A6 text27 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":146 5A8 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":43 5C0 text49 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftadd.c":148 5C0 text27 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":44 5C1 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":45 5C3 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":48 5C4 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":50 5C6 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":51 5CC text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":52 5D1 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":54 5D5 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":57 5D6 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":59 5DC text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":60 5DD text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":61 5EA text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":62 5EB text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":63 5ED text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":57 5F7 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":67 600 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":68 602 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":69 60C text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":70 60E text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":71 610 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":72 611 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":73 613 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":74 614 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":77 615 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":79 61A text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":81 61B text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":84 620 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":85 631 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":77 635 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":88 63D text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":91 63E text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":94 643 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":95 64F text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":97 659 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":98 65E text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":100 661 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":101 663 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":102 665 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":103 667 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":104 668 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":105 66A text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":106 66B text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":91 66C text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":109 675 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":52 679 text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":112 67A text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":113 67B text49 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":114 67D text49 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":56 67E text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":57 68E text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":58 695 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":59 6A4 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":60 6AB text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":61 6B0 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":62 6C0 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":63 6D0 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":64 6D4 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":66 6D5 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":67 6D6 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":68 6DC text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":69 6E2 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":71 6E6 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":72 6E8 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":73 6EE text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":74 6F4 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":75 6FA text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":76 6FE text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":78 702 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":79 704 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":80 70A text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":81 710 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":82 716 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":83 71A text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":9 732 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftmul.c":84 732 text29 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":12 737 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":13 748 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":14 755 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":16 765 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":17 778 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":18 79A text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":19 7BC text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":20 7D3 text23 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftoa.c":21 7D5 text23 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":85 7D5 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":86 7DA text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":88 7E1 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":89 7E3 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":90 7E7 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":91 7EB text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":92 7EF text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":96 7F3 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":98 7F7 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":99 7F9 text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":100 7FC text3 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":14 800 strings STRING
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":102 800 text3 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\doprnt.c":354 801 strings STRING
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.h":25 829 strings STRING
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":4 84B text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":7 84D text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":8 84F text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":9 853 text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":10 858 text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":11 85D text33 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":12 861 text33 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":9 868 text66 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\wmul.c":13 868 text33 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":10 869 text66 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":14 86A text66 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":22 879 text66 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":10 87A text66 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":23 885 text66 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":332 886 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":333 88D text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":334 893 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":335 899 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":336 89A text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":337 89B text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":338 89C text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":339 89D text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":340 89E text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":343 89F text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":344 8A7 text14 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":136 8A8 text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":139 8AC text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":140 8B3 text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":143 8BC text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":146 8C8 text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":147 8CA text63 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":15 8CB text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":16 8CC text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":20 8CD text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":21 8E1 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":24 8E2 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":29 8E4 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":16 8E5 text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":30 8ED text10 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":349 8EE text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":350 8F5 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":351 8FB text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":352 8FD text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":353 8FE text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":354 8FF text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":355 900 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":356 901 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":357 902 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":360 903 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":363 90B text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":364 910 text4 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":118 911 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":121 915 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":122 91C text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":125 925 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":128 932 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":129 934 text18 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":27 935 text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":28 937 text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":30 93C text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":31 93D text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":32 949 text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":33 94A text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":34 94C text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":28 956 text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":36 95B text51 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":59 95B text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":60 95D text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":67 95E text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":68 95F text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":69 960 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":70 963 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":73 964 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":74 968 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":75 96C text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":77 970 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":79 973 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":60 974 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":80 980 text20 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":29 981 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":31 986 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":32 988 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":33 98B text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":34 98E text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":33 98F text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":35 990 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":29 9A2 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":37 9A7 text19 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":50 9A7 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":52 9AA text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":53 9AE text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":55 9B2 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":56 9B3 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":58 9B4 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":59 9B6 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":61 9B9 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":66 9BB text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":68 9BE text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":69 9C3 text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":72 9CA text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":74 9CC text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":75 9CD text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":63 9CE text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":77 9CE text9 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":64 9D5 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":65 9D7 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":94 9D8 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":97 9E0 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":100 9E8 text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":103 9EE text53 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":104 9F5 text53 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":5 9F6 text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":6 9F8 text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":8 9FC text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":9 9FE text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":10 A0A text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":12 A0F text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":14 A1F text37 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":38 A1F text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":41 A23 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":42 A28 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":43 A30 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":41 A34 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":45 A35 text24 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lltoft.c":46 A4A text24 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":110 A4A text54 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":112 A51 text54 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":113 A58 text54 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":114 A60 text54 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":110 A70 text54 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":8 A76 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":116 A76 text54 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":9 A7A text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":10 A7C text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":11 A7E text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":12 A83 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":10 A87 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":15 A88 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":16 A90 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":17 A94 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":18 A99 text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":20 A9D text39 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwmod.c":21 AA4 text39 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":78 AD3 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":80 AD5 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":84 AD6 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":88 AD9 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":91 ADA text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":92 ADE text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":93 AEA text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":95 AF5 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":80 AF6 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":96 B02 text62 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":44 B03 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":47 B06 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":50 B07 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":51 B0A text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":52 B0D text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":55 B10 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":58 B13 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":59 B14 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":61 B17 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":64 B1A text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":65 B1B text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":70 B1E text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":73 B21 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":75 B22 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":79 B25 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":82 B28 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":84 B29 text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":86 B2C text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":89 B2F text1 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":91 B30 text1 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":9 B33 text40 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":93 B33 text1 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":10 B35 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":11 B39 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 B3B text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":13 B3D text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":14 B42 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 B46 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":17 B47 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":18 B4C text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":19 B54 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":20 B58 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":22 B59 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":23 B5E text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":25 B62 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":6 B69 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lwdiv.c":26 B69 text40 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":7 B6B text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":8 B7F text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":9 B81 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":10 B95 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":11 B97 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":12 B99 text31 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftge.c":13 BA4 text31 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":320 BA4 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":323 BA9 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":326 BAB text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":329 BAC text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":332 BAD text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":335 BB4 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":337 BB6 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":338 BB7 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":339 BBA text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":341 BBC text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":343 BC3 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":345 BC5 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":347 BCC text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":349 BCE text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":351 BD5 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":353 BD7 text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":356 BDD text42 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":358 BE2 text42 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":8 BE4 text34 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":359 BE4 text42 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":9 BEB text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":10 BED text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":11 BEF text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":12 BF6 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":10 BFA text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":15 BFB text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":16 C0B text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":17 C13 text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":18 C1A text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":20 C1E text34 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\llmod.c":21 C27 text34 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":143 C27 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":145 C31 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":148 C37 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":149 C44 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":150 C4A text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":149 C4B text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":153 C4C text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":154 C51 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":156 C55 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":157 C56 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":160 C5B text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":162 C60 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":163 C61 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":164 C62 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":145 C6A text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":55 C70 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":167 C70 text41 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":57 C76 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":59 C77 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":60 C7C maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":61 C81 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":62 C86 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":63 C8B maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":64 C90 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":65 C95 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":66 C9A maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":67 C9F maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":68 CA4 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":55 CA9 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":72 CB2 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":77 CB3 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":79 CB4 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":80 CB7 maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":81 CBA maintext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":75 CBD maintext CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":9 CBE text35 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\Base.c":84 CBE maintext CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":10 CC7 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":11 CCD text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":12 CCF text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":13 CD1 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":14 CD8 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":12 CDC text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":17 CDD text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":18 CE4 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":19 CF4 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":20 CFC text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":22 CFD text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":23 D04 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":25 D08 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":9 D11 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lldiv.c":26 D11 text35 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":10 D12 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":11 D14 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":12 D19 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":14 D1B text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":15 D1D text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":16 D22 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":18 D26 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":19 D28 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":20 D2C text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":21 D2E text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":22 D30 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":23 D35 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":21 D39 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":26 D3A text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":27 D3F text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":28 D47 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":29 D4B text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":31 D4C text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":32 D51 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":34 D55 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":35 D58 text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":36 D5D text22 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\awdiv.c":37 D64 text22 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":240 D64 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":241 D67 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":242 D72 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":243 D77 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":245 D7B text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":249 D7F text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":250 D83 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":251 D8E text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":253 D99 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":254 D9D text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":256 DA8 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":258 DB5 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":259 DB8 text15 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":205 DB9 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":208 DBC text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":209 DBF text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":210 DC1 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":211 DC4 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":214 DC5 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":217 DC6 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":220 DCD text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":222 DCF text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":224 DD6 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":226 DE1 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":228 DE8 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":230 DEA text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":232 DF1 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":234 DF3 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":236 DFA text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":238 DFF text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":240 E06 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":242 E08 text55 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":243 E0E text55 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":64 E0F text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":65 E17 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":67 E1E text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":68 E22 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":66 E28 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":71 E2D text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":72 E31 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":73 E3B text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":70 E41 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":76 E46 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":77 E48 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":75 E4E text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":79 E50 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":80 E52 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":81 E58 text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":82 E5A text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":83 E6A text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":84 E6D text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\float.c":86 E6E text30 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":22 E6F text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":24 E77 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":25 E8D text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":26 E91 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":27 E95 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":29 E9C text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":30 EB0 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":31 EC6 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":32 ECA text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":33 ECE text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":34 ED2 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":35 EDC text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":36 EE0 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\itoa.c":37 EE5 text38 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":49 EE5 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":50 EF5 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":51 EFE text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":52 F0E text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":53 F0F text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":54 F15 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":55 F1C text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":56 F1E text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":57 F20 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":58 F25 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":60 F2E text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":61 F35 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":63 F3C text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":64 F40 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":66 F49 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":67 F50 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":65 F52 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":70 F55 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":71 F58 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":72 F63 text25 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\fttol.c":73 F6C text25 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":272 F6C text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":273 F77 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":274 F82 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":275 F8D text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":276 F8F text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":277 F90 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":279 F95 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":281 F96 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":283 F9F text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":285 FA2 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":288 FA8 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":291 FAC text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":292 FB2 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":294 FB5 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":296 FB7 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":298 FB8 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":300 FBC text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":302 FC3 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":305 FC6 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":308 FC7 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":311 FD3 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":314 FD6 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":316 FE1 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":318 FED text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":320 FF0 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":325 FF4 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":277 FFF text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":327 1000 text12 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":35 15E5 text70 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":38 15E7 text70 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SYS.c":39 15EA text70 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":107 15EB text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":108 15EE text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":87 15F1 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":109 15F1 text11 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":89 15F4 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":90 15F5 text8 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":91 15F6 text8 CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3285 15F7 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3287 15F8 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3288 15F9 inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3289 15FA inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3290 15FB inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3291 15FC inittext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3244 15FD clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3246 15FE clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3247 15FF clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3248 1600 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3249 1601 clrtext CODE
+"C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.":3250 1602 clrtext CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":379 1603 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":381 1605 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":383 1606 text16 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":384 1609 text16 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftneg.c":17 160A text28 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftneg.c":18 160F text28 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftneg.c":20 1611 text28 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":135 1612 text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":136 161A text43 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":369 161B text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":371 161D text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":373 1620 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":374 1623 text2 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":7 1624 text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":8 1625 text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":12 1626 text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":20 1628 text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":8 1629 text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\NVM.c":21 162E text61 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":96 162F text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":97 1631 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":99 1632 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":101 1634 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":102 1639 text6 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":66 163A text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":67 1643 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":68 1646 text46 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":107 1646 text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":109 164D text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":111 164F text5 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":112 1651 text5 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\isdigit.c":13 1652 text36 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\isdigit.c":14 1653 text36 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\common\isdigit.c":15 1660 text36 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":264 1660 text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\RTX.c":265 166D text17 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":46 166E text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":48 1673 text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":49 1677 text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":50 167B text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":25 167E text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":52 167E text7 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":26 167F text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":33 1680 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":34 1682 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":35 1683 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":36 1684 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":37 1686 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":38 1687 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":43 1688 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":26 1689 text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":44 168E text60 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":10 168F text56 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":12 1699 text56 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":13 169A text56 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":10 169B text56 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":15 16A0 text56 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":43 16A0 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":44 16A2 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":54 16A3 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":56 16A5 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":44 16A6 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":57 16B2 text52 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":56 16B3 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":57 16C5 text50 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":61 16C6 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":62 16D8 text48 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":73 16D9 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":74 16DF text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":75 16E5 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":76 16E6 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":77 16E7 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":79 16E8 text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":81 16EA text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":82 16EB text47 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":103 16EC text64 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":106 16EF text64 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":107 16F5 text64 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":110 16FD text64 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\CC1.c":111 16FF text64 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":123 1700 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":125 1705 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":126 1709 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":129 170D text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DPY.c":130 1715 text44 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":7 1716 text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":8 1717 text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":12 1718 text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":20 1726 text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":8 1727 text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\IN.c":21 172C text68 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":7 172D text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":8 172E text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":12 172F text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":20 173D text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":8 173E text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":21 1743 text67 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":21 1744 text58 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":23 174E text58 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":24 174F text58 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":21 1758 text58 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftsub.c":18 175D text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DLY.c":26 175D text58 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftsub.c":19 1760 text26 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\ftsub.c":20 1776 text26 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":23 1776 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":24 1778 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":28 1779 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":29 177B text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":32 177C text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":33 177F text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":34 1780 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":35 1783 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":40 1785 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":24 1786 text45 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\PGM.c":41 178F text45 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbtoft.c":28 1790 text13 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbtoft.c":29 1792 text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":24 17AA text57 CODE
+"C:\Programmi\Microchip\xc8\v1.21\sources\pic\lbtoft.c":30 17AA text13 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":25 17AB text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":27 17AC text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":28 17AD text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":29 17AE text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":30 17AF text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":31 17B0 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":32 17B1 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":33 17B2 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":34 17B3 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":36 17B4 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":37 17B8 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":38 17BD text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":39 17C1 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\OUT.c":40 17C5 text57 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":43 17C6 text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":45 17CB text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":46 17CD text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":47 17D9 text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":48 17DC text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":47 17DD text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":43 17DE text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\SPI.c":50 17E3 text65 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":81 17E3 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":82 17E5 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":83 17E6 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":86 17E7 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":88 17EF text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":89 17F3 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":90 17F5 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":94 17F6 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":95 17F8 text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":98 17FA text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":99 17FD text59 CODE
+"D:\Progetti\Termometro wireless\Firmware\Base.X\DIN.c":101 1800 text59 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___lwdiv@dividend 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lldiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_DPYSendChar 2C24 0 CODE 0 text43 dist/default/debug\Base.X.debug.obj
+___awdiv@counter 76 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lbtoft@c 24 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+sprintf@f 2D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___lwdiv@counter 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_CC1Strobe 2E00 0 CODE 0 text64 dist/default/debug\Base.X.debug.obj
+__size_of_RTXSndPkt 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___lltoft@c 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+RTXReadPkt@numRxByte 68 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of___ftneg 2C24 0 CODE 0 text28 dist/default/debug\Base.X.debug.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_RTXTask 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_PGMWriteNvm 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__S0 8009 0 ABS 0 - -
+__S1 1CF 0 ABS 0 - -
+__Hintentry 22 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+?_CC1Read 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__pintentry 8 0 CODE 0 intentry dist/default/debug\Base.X.debug.obj
+___ftadd@f1 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+DPYSetCur@col 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of___awdiv 1AC8 0 CODE 0 text22 dist/default/debug\Base.X.debug.obj
+SPIWrite@i 76 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMWrite@i 62 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_OUTSetHTCDataNibble 2F54 0 CODE 0 text57 dist/default/debug\Base.X.debug.obj
+__end_of_RTXSndPkt 1B72 0 CODE 0 text15 dist/default/debug\Base.X.debug.obj
+?_SPIRead 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_PIE1 91 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PIE2 92 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?_NVMRead 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_DPYDrawChar 1494 0 CODE 0 text54 dist/default/debug\Base.X.debug.obj
+_PIR1 11 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_TMR0 15 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PIR2 12 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@maxDigit E6 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+__size_of___ftsub 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+NVMWrite@j 64 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_LATA 10C 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_WPUB 20D 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftneg@f1 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___ftadd@f2 23 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___ftsub@f1 2D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of_OUTSetHTCDataNibble 2F8C 0 CODE 0 text57 dist/default/debug\Base.X.debug.obj
+__size_of_SPIWrite 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_OUTSetHTCDataNibble 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_ftoa E64 0 CODE 0 text23 dist/default/debug\Base.X.debug.obj
+_itoa 13EC 0 CODE 0 text37 dist/default/debug\Base.X.debug.obj
+_utoa 1CDE 0 CODE 0 text38 dist/default/debug\Base.X.debug.obj
+__end_of_DPYDrawChar 14EC 0 CODE 0 text54 dist/default/debug\Base.X.debug.obj
+_main 18E0 0 CODE 0 maintext dist/default/debug\Base.X.debug.obj
+_temp A3 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+btemp 7E 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_batt A0 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+_RTXPgmOn 2C36 0 CODE 0 text2 dist/default/debug\Base.X.debug.obj
+start 22 0 CODE 0 init C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+CC1Read@addr 23 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+?___ftadd 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+NVMRead@addr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_NVMWrite CFC 0 CODE 0 text49 dist/default/debug\Base.X.debug.obj
+CC1Init@state 22 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___fttol@f1 30 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_DINInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+PGMInit@state 66 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+SPIInit@state 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___ftsub@f2 2A 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+SYSInit@state 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+?_DPYDrawChar 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+RTXInit@state 59 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___ftmul@f1 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of_INInit 2E5A 0 CODE 0 text68 dist/default/debug\Base.X.debug.obj
+__size_of_SYSInt 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___fttol@lval 39 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_TMR1H 17 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_TMR1L 16 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+DPYSendStr@col 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_TRISA 8C 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_CC1Write 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_TRISB 8D 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_IOCBN 395 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_TRISC 8E 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+reset_vec 0 0 CODE 0 reset_vec C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+_IOCBP 394 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_T1CON 18 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PMADR 191 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PMDAT 193 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+itoa@base 2A 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+utoa@base 22 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+wtemp0 7E 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftmul@f2 23 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_DPYWriteByte 1B72 0 CODE 0 text55 dist/default/debug\Base.X.debug.obj
+__Hconfig 10012 0 CONFIG 0 config -
+__Lconfig 1000E 0 CONFIG 0 config -
+?___ftneg 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___ftpack 1C1E 0 CODE 0 text30 dist/default/debug\Base.X.debug.obj
+_CC1Write 1150 0 CODE 0 text63 dist/default/debug\Base.X.debug.obj
+?___llmod 25 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+utoa@c 26 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+ftoa@f 47 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_strTitle B3 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+_PGMPgmOff 2BE2 0 CODE 0 text8 dist/default/debug\Base.X.debug.obj
+__end_of__stringtab 1002 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+main@i 6A 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_DINTick 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_SPIWrite 2F8C 0 CODE 0 text65 dist/default/debug\Base.X.debug.obj
+_RTXSendRData 110C 0 CODE 0 text14 dist/default/debug\Base.X.debug.obj
+ftoa@l 50 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_RTXPgmOff 2C06 0 CODE 0 text16 dist/default/debug\Base.X.debug.obj
+_NVMWrite B80 0 CODE 0 text49 dist/default/debug\Base.X.debug.obj
+?___lwmod 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@posDec E3 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Lbigram 0 0 ABS 0 bigram -
+utoa@v 24 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+NVMWrite@source 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_u_in_ev_down B0 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__CFG_CP$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?_ftoa 47 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+?_itoa 28 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hram 0 0 ABS 0 ram -
+?_utoa 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+?___ftsub 2A 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Lram 0 0 ABS 0 ram -
+__end_of_RTXReadPkt 2000 0 CODE 0 text12 dist/default/debug\Base.X.debug.obj
+__end_of__stringdata 1072 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+_pktRx 141 0 BANK2 1 bssBANK2 dist/default/debug\Base.X.debug.obj
+_pktTx C3 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftge@ff1 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_PGMReadNvm 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?_sprintf 2D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__CFG_LPBOR$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftmul@cntr 2E 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_PGMCheckNvm 2C74 0 CODE 0 text46 dist/default/debug\Base.X.debug.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@strTmp D1 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+RTXUpdateDisplay@offset E5 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+___ftge@ff2 74 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_PMCON1 195 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_PGMInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PMCON2 196 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_OPTION_REG 95 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@status E1 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+?___fttol 30 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_PIR1bits 11 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?___ftmul 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_LATAbits 10C 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+sprintf@ap 3C 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_INInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_LATCbits 10E 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_NVMInit 2C5E 0 CODE 0 text61 dist/default/debug\Base.X.debug.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_ANSELA 18C 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PGMWriteNvm 2D8C 0 CODE 0 text48 dist/default/debug\Base.X.debug.obj
+_ANSELB 18D 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_CC1Strobe 2DD8 0 CODE 0 text64 dist/default/debug\Base.X.debug.obj
+?___lldiv 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_ANSELC 18E 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___lbtoft 2F20 0 CODE 0 text13 dist/default/debug\Base.X.debug.obj
+?___awdiv 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lltoft 143E 0 CODE 0 text24 dist/default/debug\Base.X.debug.obj
+?___lwdiv 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_SSPBUF 211 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+CC1Write@addr 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+OUTSetHTCDataNibble@val 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMWrite@addr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+INInit@sta 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_OSCCON 99 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_WDTCON 97 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_INTCON B 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__end_of_PGMPgmOff 2BEE 0 CODE 0 text8 dist/default/debug\Base.X.debug.obj
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__size_of_PGMTick 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+OUTSetHTCDataNibble@dataToSet 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__Hsfr5 0 0 ABS 0 sfr5 -
+___ftmul@f3_as_product 2B 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__end_of_PGMSelDown 2C74 0 CODE 0 text6 dist/default/debug\Base.X.debug.obj
+__size_of_SPIRead 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?_DPYWriteByte 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+DPYSendStr@i 26 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_u_in_ev_long B1 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__size_of_DPYIsBusy 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of___ftpack 1CDE 0 CODE 0 text30 dist/default/debug\Base.X.debug.obj
+?___ftpack 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+?_CC1Write 77 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_DPYWriteByte 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_RTXRcvPkt 2CDC 0 CODE 0 text17 dist/default/debug\Base.X.debug.obj
+?_SPIWrite 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_RTXUpdateDisplay 86 0 CODE 0 text21 dist/default/debug\Base.X.debug.obj
+NVMWrite@rowAddr 60 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+?_NVMWrite 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_CC1Read 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+DPYDrawChar@tmpAddr 21 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of_dpowers 1052 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftadd@sign 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_RTXPgmOn 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+ftoa@cp 54 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+itoa@cp 2C 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___ftge 16D2 0 CODE 0 text31 dist/default/debug\Base.X.debug.obj
+__size_of_SPIInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_RTXPgmOff 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXReadPkt@sta 66 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_tmrPgm AA 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+sprintf@sp 41 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_INTIsr 8 0 CODE 0 intentry dist/default/debug\Base.X.debug.obj
+_u_flg_din 6E 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+_SYSInt 2BCA 0 CODE 0 text70 dist/default/debug\Base.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_INInit 2E2C 0 CODE 0 text68 dist/default/debug\Base.X.debug.obj
+__Hinit 22 0 CODE 0 init -
+__Linit 22 0 CODE 0 init -
+___wmul 1096 0 CODE 0 text33 dist/default/debug\Base.X.debug.obj
+__end_of_main 197C 0 CODE 0 maintext dist/default/debug\Base.X.debug.obj
+__size_of_CC1Strobe 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXReadPkt@tmp 67 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of_PGMCheckNvm 2C8C 0 CODE 0 text46 dist/default/debug\Base.X.debug.obj
+_RTXSndPkt 1AC8 0 CODE 0 text15 dist/default/debug\Base.X.debug.obj
+DPYSetCur@row 7A 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+DPYDrawChar@i 22 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+_isdigit$1047 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+sprintf@width 42 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_CC1Init 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___wmul@multiplier 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+?_DLYDelay_us 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_DPYSetCur 2E00 0 CODE 0 text44 dist/default/debug\Base.X.debug.obj
+__size_of___ftneg 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_RTXRcvPkt 2CC0 0 CODE 0 text17 dist/default/debug\Base.X.debug.obj
+___ftmul@sign 2F 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+end_of_initialization 80 0 CODE 0 cinit dist/default/debug\Base.X.debug.obj
+___awdiv@sign 77 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_tmrRcvPkt 6D 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_DPYInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_DLYDelay_ms 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___wmul@multiplicand 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_DLYDelay_us 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_tmrCalibration A6 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Lsfr10 0 0 ABS 0 sfr10 -
+_SSPCON1 215 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+_SSPCON2 216 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__stringtab 1000 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+_cc1PaTable 153 0 BANK2 1 dataBANK2 dist/default/debug\Base.X.debug.obj
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__end_of_CC1Write 1196 0 CODE 0 text63 dist/default/debug\Base.X.debug.obj
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+_u_in_sta_currTask 7C 0 COMMON 1 bssCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_OUTInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__end_of_nvm_pgm_cfg 105C 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__end_of_PGMReadNvm 2D8C 0 CODE 0 text50 dist/default/debug\Base.X.debug.obj
+?_DPYSendStr 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of___ftadd B80 0 CODE 0 text27 dist/default/debug\Base.X.debug.obj
+__end_of___lltoft 1494 0 CODE 0 text24 dist/default/debug\Base.X.debug.obj
+_PORTAbits C 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PORTBbits D 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__CFG_VCAPEN$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__pstrings 1000 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+?___lbtoft 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_DINTask 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_PGMCheckNvm 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?___lltoft 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_tmrDbncSel 6C 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+__end_of_DLYDelay_ms 2EBA 0 CODE 0 text58 dist/default/debug\Base.X.debug.obj
+__end_of_DLYDelay_us 2D40 0 CODE 0 text56 dist/default/debug\Base.X.debug.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__pdataBANK2 14A 0 BANK2 1 dataBANK2 dist/default/debug\Base.X.debug.obj
+_cc1InitVal 1A0 0 BANK3 1 dataBANK3 dist/default/debug\Base.X.debug.obj
+__end_of_SPIRead 134E 0 CODE 0 text19 dist/default/debug\Base.X.debug.obj
+__size_of___lltoft 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+DPYIsBusy@bf 76 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_DPYDrawChar 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+DINInit@sta 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMInit@sta 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_INTIsr 22 0 CODE 0 intentry dist/default/debug\Base.X.debug.obj
+DPYInit@sta 23 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+OUTInit@sta 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+RTXSndPkt@numRxByte 27 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+_tmrLongSel A8 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 3 0 ABS 0 - C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+___ftmul@exp 2A 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 -
+__Lbank4 0 0 ABS 0 bank4 -
+_RTXSendPgm 11DC 0 CODE 0 text4 dist/default/debug\Base.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Hpowerup 0 0 CODE 0 powerup -
+_SSPSTAT 214 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Hbank6 0 0 ABS 0 bank6 -
+__Lbank6 0 0 ABS 0 bank6 -
+__size_of_DPYSendStr 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_DPYWriteByte 1C1E 0 CODE 0 text55 dist/default/debug\Base.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 -
+__Lbank7 0 0 ABS 0 bank7 -
+__size_of_RTXUpdateDisplay 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hbank8 0 0 ABS 0 bank8 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Lbank9 0 0 ABS 0 bank9 -
+_PGMNvmReset 2DB2 0 CODE 0 text47 dist/default/debug\Base.X.debug.obj
+DPYSetCur@addr 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__ptext1 1606 0 CODE 0 text1 dist/default/debug\Base.X.debug.obj
+__size_of_RTXRcvPkt 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__ptext2 2C36 0 CODE 0 text2 dist/default/debug\Base.X.debug.obj
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__ptext3 FAA 0 CODE 0 text3 dist/default/debug\Base.X.debug.obj
+__end_of_RTXUpdateDisplay 5DC 0 CODE 0 text21 dist/default/debug\Base.X.debug.obj
+__pdataBANK3 1A0 0 BANK3 1 dataBANK3 dist/default/debug\Base.X.debug.obj
+__ptext4 11DC 0 CODE 0 text4 dist/default/debug\Base.X.debug.obj
+__ptext5 2C8C 0 CODE 0 text5 dist/default/debug\Base.X.debug.obj
+_DPYIsBusy 1748 0 CODE 0 text42 dist/default/debug\Base.X.debug.obj
+__ptext6 2C5E 0 CODE 0 text6 dist/default/debug\Base.X.debug.obj
+__ptext7 2CDC 0 CODE 0 text7 dist/default/debug\Base.X.debug.obj
+__end_of_CC1Init 1606 0 CODE 0 text62 dist/default/debug\Base.X.debug.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__ptext8 2BE2 0 CODE 0 text8 dist/default/debug\Base.X.debug.obj
+__ptext9 134E 0 CODE 0 text9 dist/default/debug\Base.X.debug.obj
+__size_of_DPYSendChar 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__pcstackBANK1 D1 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+CC1Read@len 22 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+SPIRead@len 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMRead@len 74 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_PGMSelLong 2C8C 0 CODE 0 text5 dist/default/debug\Base.X.debug.obj
+__end_of_DPYInit 2D66 0 CODE 0 text52 dist/default/debug\Base.X.debug.obj
+DLYDelay_ms@val 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_OUTInit 2E88 0 CODE 0 text67 dist/default/debug\Base.X.debug.obj
+_DLYDelay_ms 2E88 0 CODE 0 text58 dist/default/debug\Base.X.debug.obj
+__CFG_WDTE$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_RTXTick 1000 0 CODE 0 text3 dist/default/debug\Base.X.debug.obj
+__end_of__initialization 80 0 CODE 0 cinit dist/default/debug\Base.X.debug.obj
+__end_of_DPYSendStr 18E0 0 CODE 0 text41 dist/default/debug\Base.X.debug.obj
+__end_of___lwdiv 16D2 0 CODE 0 text40 dist/default/debug\Base.X.debug.obj
+__end_of___lbtoft 2F54 0 CODE 0 text13 dist/default/debug\Base.X.debug.obj
+_CC1Read 1222 0 CODE 0 text18 dist/default/debug\Base.X.debug.obj
+NVMRead@dest 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_SPIRead 1302 0 CODE 0 text19 dist/default/debug\Base.X.debug.obj
+__end_of_SYSTask 1666 0 CODE 0 text1 dist/default/debug\Base.X.debug.obj
+_NVMRead 126A 0 CODE 0 text51 dist/default/debug\Base.X.debug.obj
+DLYDelay_ms@i 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_DPYSendChar 2C36 0 CODE 0 text43 dist/default/debug\Base.X.debug.obj
+__size_of_SYSInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+DPYWriteByte@val 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_DPYSetCur 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftadd 994 0 CODE 0 text27 dist/default/debug\Base.X.debug.obj
+__end_of_SYSInt 2BD6 0 CODE 0 text70 dist/default/debug\Base.X.debug.obj
+_DINTick 134E 0 CODE 0 text9 dist/default/debug\Base.X.debug.obj
+_PGMTick 2CDC 0 CODE 0 text7 dist/default/debug\Base.X.debug.obj
+_pgm_cfg CC 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+_RTXTick FAA 0 CODE 0 text3 dist/default/debug\Base.X.debug.obj
+__size_of_ftoa 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_PGMReadNvm 2D66 0 CODE 0 text50 dist/default/debug\Base.X.debug.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+?___ftge 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+ftoa@buf 120 0 BANK2 1 bssBANK2 dist/default/debug\Base.X.debug.obj
+itoa@buf 2D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Lidloc 0 0 IDLOC 0 idloc -
+utoa@buf 27 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+itoa@val 28 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+utoa@val 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+_pgm_flg AC 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+___ftneg 2C14 0 CODE 0 text28 dist/default/debug\Base.X.debug.obj
+__size_of_NVMWrite 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_rtx_flg 6B 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+ftoa@rem 4C 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___llmod 17C8 0 CODE 0 text34 dist/default/debug\Base.X.debug.obj
+_DINTask 2FC6 0 CODE 0 text59 dist/default/debug\Base.X.debug.obj
+__end_of___lldiv 1A22 0 CODE 0 text35 dist/default/debug\Base.X.debug.obj
+DLYDelay_us@val 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_SYSInit 11DC 0 CODE 0 text10 dist/default/debug\Base.X.debug.obj
+_SYSTask 1606 0 CODE 0 text1 dist/default/debug\Base.X.debug.obj
+_RTXTask 2BD6 0 CODE 0 text11 dist/default/debug\Base.X.debug.obj
+___lwmod 14EC 0 CODE 0 text39 dist/default/debug\Base.X.debug.obj
+init_ram 2BEE 0 CODE 0 inittext dist/default/debug\Base.X.debug.obj
+___ftsub 2EBA 0 CODE 0 text26 dist/default/debug\Base.X.debug.obj
+_s_CC1_FLG AD 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+___ftpack@sign 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_CC1Init 15A6 0 CODE 0 text62 dist/default/debug\Base.X.debug.obj
+_sprintf 5DC 0 CODE 0 text32 dist/default/debug\Base.X.debug.obj
+_DINInit 2CFC 0 CODE 0 text60 dist/default/debug\Base.X.debug.obj
+_PGMInit 2EEC 0 CODE 0 text45 dist/default/debug\Base.X.debug.obj
+_SPIInit 10D0 0 CODE 0 text66 dist/default/debug\Base.X.debug.obj
+_NVMInit 2C48 0 CODE 0 text61 dist/default/debug\Base.X.debug.obj
+_DPYInit 2D40 0 CODE 0 text52 dist/default/debug\Base.X.debug.obj
+___ftadd@exp1 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_OUTInit 2E5A 0 CODE 0 text67 dist/default/debug\Base.X.debug.obj
+_SYSInit 1196 0 CODE 0 text10 dist/default/debug\Base.X.debug.obj
+_RTXInit 12B6 0 CODE 0 text20 dist/default/debug\Base.X.debug.obj
+_strTemp 131 0 BANK2 1 bssBANK2 dist/default/debug\Base.X.debug.obj
+_picBatt 14A 0 BANK2 1 dataBANK2 dist/default/debug\Base.X.debug.obj
+___fttol 1DCA 0 CODE 0 text25 dist/default/debug\Base.X.debug.obj
+?___wmul 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+CC1Strobe@e_stb 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_isdigit 2CA4 0 CODE 0 text36 dist/default/debug\Base.X.debug.obj
+__Hcinit 86 0 CODE 0 cinit -
+___ftmul CFC 0 CODE 0 text29 dist/default/debug\Base.X.debug.obj
+__Lcinit 26 0 CODE 0 cinit -
+___lldiv 197C 0 CODE 0 text35 dist/default/debug\Base.X.debug.obj
+___awdiv 1A22 0 CODE 0 text22 dist/default/debug\Base.X.debug.obj
+_RTXReadPkt 1ED8 0 CODE 0 text12 dist/default/debug\Base.X.debug.obj
+___lwdiv 1666 0 CODE 0 text40 dist/default/debug\Base.X.debug.obj
+__size_of_PGMNvmReset 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+?_RTXSndPkt 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+_dpowers 1002 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+__end_of_DPYIsBusy 17C8 0 CODE 0 text42 dist/default/debug\Base.X.debug.obj
+DLYDelay_us@i 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of_itoa 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_u_SYS_STA AF 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__end_of_RTXTask 2BE2 0 CODE 0 text11 dist/default/debug\Base.X.debug.obj
+?_DPYSetCur 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___fttol@exp1 3D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+DPYSendStr@row 27 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+?_RTXRcvPkt 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_isdigit 2CC0 0 CODE 0 text36 dist/default/debug\Base.X.debug.obj
+__end_of_sprintf 994 0 CODE 0 text32 dist/default/debug\Base.X.debug.obj
+RTXSndPkt@sta 29 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+DPYDrawChar@addr 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+clear_ram0 2BFA 0 CODE 0 clrtext dist/default/debug\Base.X.debug.obj
+___ftpack@arg 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_NVMRead 12B6 0 CODE 0 text51 dist/default/debug\Base.X.debug.obj
+_DLYDelay_us 2D1E 0 CODE 0 text56 dist/default/debug\Base.X.debug.obj
+__end_of_RTXInit 1302 0 CODE 0 text20 dist/default/debug\Base.X.debug.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___ftadd@exp2 7A 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__Hbank10 0 0 ABS 0 bank10 -
+__pbssBANK0 6B 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__size_of_isdigit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Lbank20 0 0 BANK20 1 bank20 -
+__end_of_DINTick 139C 0 CODE 0 text9 dist/default/debug\Base.X.debug.obj
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Lbank21 0 0 BANK21 1 bank21 -
+DPYSendStr@data 21 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank12 0 0 ABS 0 bank12 -
+sprintf@flag 3B 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank22 0 0 BANK22 1 bank22 -
+__Lbank22 0 0 BANK22 1 bank22 -
+_DPYSendStr 184E 0 CODE 0 text41 dist/default/debug\Base.X.debug.obj
+__Hbank13 0 0 BANK13 1 bank13 -
+__size_of___lbtoft 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Lbank13 0 0 BANK13 1 bank13 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Lbank23 0 0 BANK23 1 bank23 -
+_PGMSelDown 2C5E 0 CODE 0 text6 dist/default/debug\Base.X.debug.obj
+__Hbank14 0 0 BANK14 1 bank14 -
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__Lbank14 0 0 BANK14 1 bank14 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__ptext10 1196 0 CODE 0 text10 dist/default/debug\Base.X.debug.obj
+CC1Read@dst 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank15 0 0 BANK15 1 bank15 -
+__size_of_RTXReadPkt 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Lbank15 0 0 BANK15 1 bank15 -
+__ptext20 12B6 0 CODE 0 text20 dist/default/debug\Base.X.debug.obj
+__end_of_RTXSendPgm 1222 0 CODE 0 text4 dist/default/debug\Base.X.debug.obj
+__Hbank25 0 0 BANK25 1 bank25 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__ptext11 2BD6 0 CODE 0 text11 dist/default/debug\Base.X.debug.obj
+__ptext30 1C1E 0 CODE 0 text30 dist/default/debug\Base.X.debug.obj
+__Hbank16 0 0 BANK16 1 bank16 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__ptext21 86 0 CODE 0 text21 dist/default/debug\Base.X.debug.obj
+__ptext40 1666 0 CODE 0 text40 dist/default/debug\Base.X.debug.obj
+__Hbank26 0 0 BANK26 1 bank26 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__ptext12 1ED8 0 CODE 0 text12 dist/default/debug\Base.X.debug.obj
+__ptext31 16D2 0 CODE 0 text31 dist/default/debug\Base.X.debug.obj
+__ptext50 2D66 0 CODE 0 text50 dist/default/debug\Base.X.debug.obj
+__Hbank17 0 0 BANK17 1 bank17 -
+__Lbank17 0 0 BANK17 1 bank17 -
+NVMWrite@latchAddr 63 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__ptext22 1A22 0 CODE 0 text22 dist/default/debug\Base.X.debug.obj
+__ptext41 184E 0 CODE 0 text41 dist/default/debug\Base.X.debug.obj
+__ptext60 2CFC 0 CODE 0 text60 dist/default/debug\Base.X.debug.obj
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__end_of_PGMNvmReset 2DD8 0 CODE 0 text47 dist/default/debug\Base.X.debug.obj
+__ptext13 2F20 0 CODE 0 text13 dist/default/debug\Base.X.debug.obj
+__ptext32 5DC 0 CODE 0 text32 dist/default/debug\Base.X.debug.obj
+__ptext51 126A 0 CODE 0 text51 dist/default/debug\Base.X.debug.obj
+__ptext70 2BCA 0 CODE 0 text70 dist/default/debug\Base.X.debug.obj
+__Hbank18 0 0 BANK18 1 bank18 -
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/debug\Base.X.debug.obj
+__Lbank18 0 0 BANK18 1 bank18 -
+__ptext23 E64 0 CODE 0 text23 dist/default/debug\Base.X.debug.obj
+__ptext42 1748 0 CODE 0 text42 dist/default/debug\Base.X.debug.obj
+__ptext61 2C48 0 CODE 0 text61 dist/default/debug\Base.X.debug.obj
+sprintf@prec 44 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hbank28 0 0 BANK28 1 bank28 -
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Lbank28 0 0 BANK28 1 bank28 -
+__end_of_PGMTick 2CFC 0 CODE 0 text7 dist/default/debug\Base.X.debug.obj
+_PMCON1bits 195 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_RTXInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__ptext14 110C 0 CODE 0 text14 dist/default/debug\Base.X.debug.obj
+__ptext33 1096 0 CODE 0 text33 dist/default/debug\Base.X.debug.obj
+__ptext52 2D40 0 CODE 0 text52 dist/default/debug\Base.X.debug.obj
+__Hbank19 0 0 BANK19 1 bank19 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__size_of_NVMRead 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__ptext24 143E 0 CODE 0 text24 dist/default/debug\Base.X.debug.obj
+__ptext43 2C24 0 CODE 0 text43 dist/default/debug\Base.X.debug.obj
+__ptext62 15A6 0 CODE 0 text62 dist/default/debug\Base.X.debug.obj
+__Hbank29 0 0 BANK29 1 bank29 -
+__Lbank29 0 0 BANK29 1 bank29 -
+SPIRead@dstPtr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__ptext15 1AC8 0 CODE 0 text15 dist/default/debug\Base.X.debug.obj
+__ptext34 17C8 0 CODE 0 text34 dist/default/debug\Base.X.debug.obj
+__ptext53 139C 0 CODE 0 text53 dist/default/debug\Base.X.debug.obj
+__ptext25 1DCA 0 CODE 0 text25 dist/default/debug\Base.X.debug.obj
+__ptext44 2E00 0 CODE 0 text44 dist/default/debug\Base.X.debug.obj
+__ptext63 1150 0 CODE 0 text63 dist/default/debug\Base.X.debug.obj
+__end_of_PGMSelLong 2CA4 0 CODE 0 text5 dist/default/debug\Base.X.debug.obj
+RTXSndPkt@src 26 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+DPYWriteByte@rs 77 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__ptext16 2C06 0 CODE 0 text16 dist/default/debug\Base.X.debug.obj
+__ptext35 197C 0 CODE 0 text35 dist/default/debug\Base.X.debug.obj
+__ptext54 1494 0 CODE 0 text54 dist/default/debug\Base.X.debug.obj
+__size_of_PGMPgmOff 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__ptext26 2EBA 0 CODE 0 text26 dist/default/debug\Base.X.debug.obj
+__ptext45 2EEC 0 CODE 0 text45 dist/default/debug\Base.X.debug.obj
+__ptext64 2DD8 0 CODE 0 text64 dist/default/debug\Base.X.debug.obj
+___llmod@divisor 25 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__ptext17 2CC0 0 CODE 0 text17 dist/default/debug\Base.X.debug.obj
+__ptext36 2CA4 0 CODE 0 text36 dist/default/debug\Base.X.debug.obj
+__ptext55 1B72 0 CODE 0 text55 dist/default/debug\Base.X.debug.obj
+__end_of___lwmod 1548 0 CODE 0 text39 dist/default/debug\Base.X.debug.obj
+__ptext27 994 0 CODE 0 text27 dist/default/debug\Base.X.debug.obj
+__ptext46 2C74 0 CODE 0 text46 dist/default/debug\Base.X.debug.obj
+__ptext65 2F8C 0 CODE 0 text65 dist/default/debug\Base.X.debug.obj
+___lwmod@divisor 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__ptext18 1222 0 CODE 0 text18 dist/default/debug\Base.X.debug.obj
+__ptext37 13EC 0 CODE 0 text37 dist/default/debug\Base.X.debug.obj
+__ptext56 2D1E 0 CODE 0 text56 dist/default/debug\Base.X.debug.obj
+__ptext28 2C14 0 CODE 0 text28 dist/default/debug\Base.X.debug.obj
+__ptext47 2DB2 0 CODE 0 text47 dist/default/debug\Base.X.debug.obj
+__ptext66 10D0 0 CODE 0 text66 dist/default/debug\Base.X.debug.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+___fttol@sign1 38 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__ptext19 1302 0 CODE 0 text19 dist/default/debug\Base.X.debug.obj
+__ptext38 1CDE 0 CODE 0 text38 dist/default/debug\Base.X.debug.obj
+__ptext57 2F54 0 CODE 0 text57 dist/default/debug\Base.X.debug.obj
+__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/debug\Base.X.debug.obj
+__ptext29 CFC 0 CODE 0 text29 dist/default/debug\Base.X.debug.obj
+__ptext48 2D8C 0 CODE 0 text48 dist/default/debug\Base.X.debug.obj
+__ptext67 2E5A 0 CODE 0 text67 dist/default/debug\Base.X.debug.obj
+__end_of_RTXSendRData 1150 0 CODE 0 text14 dist/default/debug\Base.X.debug.obj
+__ptext39 14EC 0 CODE 0 text39 dist/default/debug\Base.X.debug.obj
+__ptext58 2E88 0 CODE 0 text58 dist/default/debug\Base.X.debug.obj
+__ptext49 B80 0 CODE 0 text49 dist/default/debug\Base.X.debug.obj
+__ptext68 2E2C 0 CODE 0 text68 dist/default/debug\Base.X.debug.obj
+_INTCONbits B 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_SSPCONbits 215 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__ptext59 2FC6 0 CODE 0 text59 dist/default/debug\Base.X.debug.obj
+RTXSndPkt@numTxByte 28 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hend_init 26 0 CODE 0 end_init -
+__Lend_init 22 0 CODE 0 end_init -
+__size_of_RTXTick 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_u_in_ev_up B2 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__end_of_DPYInitDisplay 13EC 0 CODE 0 text53 dist/default/debug\Base.X.debug.obj
+___lldiv@divisor 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+DPYSendChar@c 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___ftpack@exp 74 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+___awdiv@divisor 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_ftoa FAA 0 CODE 0 text23 dist/default/debug\Base.X.debug.obj
+__size_of_NVMInit 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+_nvm_pgm_cfg 1052 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+___lwdiv@divisor 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMWrite@bufTmpRow 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__end_of___ftmul E64 0 CODE 0 text29 dist/default/debug\Base.X.debug.obj
+__end_of___llmod 184E 0 CODE 0 text34 dist/default/debug\Base.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of_DINTask 3000 0 CODE 0 text59 dist/default/debug\Base.X.debug.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__end_of_itoa 143E 0 CODE 0 text37 dist/default/debug\Base.X.debug.obj
+__pidataBANK2 1074 0 CODE 0 idataBANK2 dist/default/debug\Base.X.debug.obj
+__size_of_RTXSendPgm 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_PGMWriteNvm 2DB2 0 CODE 0 text48 dist/default/debug\Base.X.debug.obj
+__stringdata 105C 0 STRING 0 strings dist/default/debug\Base.X.debug.obj
+CC1Write@cc1Addr 21 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of_SYSTask 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_INTIsr 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+intlevel0 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+__end_of_SPIWrite 2FC6 0 CODE 0 text65 dist/default/debug\Base.X.debug.obj
+intlevel1 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+__end_of_DINInit 2D1E 0 CODE 0 text60 dist/default/debug\Base.X.debug.obj
+intlevel2 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+___lltoft@exp 7A 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+CC1Write@src 77 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+intlevel3 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+intlevel4 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+__end_of_DPYSetCur 2E2C 0 CODE 0 text44 dist/default/debug\Base.X.debug.obj
+intlevel5 0 0 CODE 0 functab C:\DOCUME~1\User\IMPOST~1\Temp\s3vs.obj
+__size_of_utoa 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@i EA 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@j E8 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@p E9 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_PGMInit 2F20 0 CODE 0 text45 dist/default/debug\Base.X.debug.obj
+__size_of_PGMSelLong 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+CC1Read@cc1Addr 24 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_PGMSelDown 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__pidataBANK3 1548 0 CODE 0 idataBANK3 dist/default/debug\Base.X.debug.obj
+_u_in_sta_tmpTask 6F 0 BANK0 1 bssBANK0 dist/default/debug\Base.X.debug.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of___wmul 10D0 0 CODE 0 text33 dist/default/debug\Base.X.debug.obj
+SPIWrite@srcPtr 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+start_initialization 26 0 CODE 0 cinit dist/default/debug\Base.X.debug.obj
+___lldiv@quotient 20 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___awdiv@quotient 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@val E7 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+DPYDrawChar@p 78 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lwdiv@quotient 76 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__size_of_RTXSendRData 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+RTXRcvPkt@dst 26 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_CC1Read 126A 0 CODE 0 text18 dist/default/debug\Base.X.debug.obj
+__pmaintext 18E0 0 CODE 0 maintext dist/default/debug\Base.X.debug.obj
+__size_of_DPYInitDisplay 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of___fttol 1ED8 0 CODE 0 text25 dist/default/debug\Base.X.debug.obj
+__end_of_utoa 1DCA 0 CODE 0 text38 dist/default/debug\Base.X.debug.obj
+__Hinittext 0 0 ABS 0 inittext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__Linittext 0 0 ABS 0 inittext -
+__size_of_sprintf 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_SPIInit 110C 0 CODE 0 text66 dist/default/debug\Base.X.debug.obj
+__end_of___ftsub 2EEC 0 CODE 0 text26 dist/default/debug\Base.X.debug.obj
+__initialization 26 0 CODE 0 cinit dist/default/debug\Base.X.debug.obj
+__end_of___ftge 1748 0 CODE 0 text31 dist/default/debug\Base.X.debug.obj
+_DPYInitDisplay 139C 0 CODE 0 text53 dist/default/debug\Base.X.debug.obj
+RTXSndPkt@len 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___llmod@dividend 29 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+CC1Write@len 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+DPYSendStr@len 23 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+___lwmod@dividend 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+?_DLYDelay_ms 71 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+sprintf@_val 3D 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+SPIWrite@len 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMWrite@len 74 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___llmod@counter 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+RTXRcvPkt@len 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___wmul@product 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lwmod@counter 76 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+__end_of_RTXPgmOn 2C48 0 CODE 0 text2 dist/default/debug\Base.X.debug.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+CC1Strobe@cc1Stb 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+__end_of_RTXPgmOff 2C14 0 CODE 0 text16 dist/default/debug\Base.X.debug.obj
+_sys_pgm_sta AE 0 BANK1 1 bssBANK1 dist/default/debug\Base.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+sprintf@c 46 0 BANK0 1 cstackBANK0 dist/default/debug\Base.X.debug.obj
+__size_of___llmod 0 0 ABS 0 - dist/default/debug\Base.X.debug.obj
+SPIRead@i 79 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+NVMRead@i 77 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___lldiv@dividend 75 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+RTXUpdateDisplay@isDec E4 0 BANK1 1 cstackBANK1 dist/default/debug\Base.X.debug.obj
+isdigit@c 72 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+___awdiv@dividend 73 0 COMMON 1 cstackCOMMON dist/default/debug\Base.X.debug.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2 CODE
+intentry 0 4 8 7FC 2 CODE
+config 0 8007 1000E 2 2 CONFIG
+cstackCOMMON 1 70 70 D 1 COMMON
+cstackBANK0 1 20 20 50 1 BANK0
+bssBANK1 1 A0 A0 4B 1 BANK1
+dataBANK3 1 1A0 1A0 2F 1 BANK3
+bssBANK2 1 120 120 3B 1 BANK2
+text12 0 F6C 1ED8 94 2 CODE
+text25 0 EE5 1DCA 87 2 CODE
+text38 0 E6F 1CDE 76 2 CODE
+text30 0 E0F 1C1E 60 2 CODE
+text55 0 DB9 1B72 56 2 CODE
+text15 0 D64 1AC8 55 2 CODE
+text22 0 D11 1A22 53 2 CODE
+text35 0 CBE 197C 53 2 CODE
+maintext 0 C70 18E0 4E 2 CODE
+text41 0 C27 184E 49 2 CODE
+text34 0 BE4 17C8 43 2 CODE
+text42 0 BA4 1748 40 2 CODE
+text31 0 B69 16D2 3B 2 CODE
+strings 0 800 1000 39 2 STRING
+text40 0 B33 1666 36 2 CODE
+text1 0 B03 1606 30 2 CODE
+text62 0 AD3 15A6 30 2 CODE
+idataBANK3 0 AA4 1548 2F 2 CODE
+text39 0 A76 14EC 2E 2 CODE
+text54 0 A4A 1494 2C 2 CODE
+text24 0 A1F 143E 2B 2 CODE
+text37 0 9F6 13EC 29 2 CODE
+text53 0 9CE 139C 28 2 CODE
+text9 0 9A7 134E 27 2 CODE
+text19 0 981 1302 26 2 CODE
+text20 0 95B 12B6 26 2 CODE
+text51 0 935 126A 26 2 CODE
+text18 0 911 1222 24 2 CODE
+text4 0 8EE 11DC 23 2 CODE
+text10 0 8CB 1196 23 2 CODE
+text63 0 8A8 1150 23 2 CODE
+text14 0 886 110C 22 2 CODE
+text66 0 868 10D0 1E 2 CODE
+text33 0 84B 1096 1D 2 CODE
+text59 0 17E3 2FC6 1D 2 CODE
+text65 0 17C6 2F8C 1D 2 CODE
+text57 0 17AA 2F54 1C 2 CODE
+text13 0 1790 2F20 1A 2 CODE
+text45 0 1776 2EEC 1A 2 CODE
+text26 0 175D 2EBA 19 2 CODE
+text58 0 1744 2E88 19 2 CODE
+text67 0 172D 2E5A 17 2 CODE
+text68 0 1716 2E2C 17 2 CODE
+text44 0 1700 2E00 16 2 CODE
+text64 0 16EC 2DD8 14 2 CODE
+text47 0 16D9 2DB2 13 2 CODE
+text48 0 16C6 2D8C 13 2 CODE
+text50 0 16B3 2D66 13 2 CODE
+text52 0 16A0 2D40 13 2 CODE
+idataBANK2 0 83A 1074 11 2 CODE
+text56 0 168F 2D1E 11 2 CODE
+text60 0 167E 2CFC 11 2 CODE
+text7 0 166E 2CDC 10 2 CODE
+text17 0 1660 2CC0 E 2 CODE
+text36 0 1652 2CA4 E 2 CODE
+text5 0 1646 2C8C C 2 CODE
+text46 0 163A 2C74 C 2 CODE
+text6 0 162F 2C5E B 2 CODE
+text61 0 1624 2C48 B 2 CODE
+text2 0 161B 2C36 9 2 CODE
+text43 0 1612 2C24 9 2 CODE
+text28 0 160A 2C14 8 2 CODE
+text16 0 1603 2C06 7 2 CODE
+clrtext 0 15FD 2BFA 6 2 CODE
+inittext 0 15F7 2BEE 6 2 CODE
+text8 0 15F1 2BE2 6 2 CODE
+text11 0 15EB 2BD6 6 2 CODE
+text70 0 15E5 2BCA 6 2 CODE
